@@ -1,0 +1,845 @@
+@charset "utf-8";
+/* CSS Document */
+/* Next Button CSS */
+
+	
+		.button{
+			
+			background-color:hsla(48,97%,53%,1.00);
+  			border: 5px solid hsla(48,97%,53%,1.00);
+			border-radius: 35px;
+  			color: white;
+  			padding: 15px 32px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 20px;
+  			margin: 4px 2px;
+  			cursor: pointer;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 600;
+		}
+	
+/* Next Button CSS end*/ 
+	
+	
+/* Button Group CSS */
+	
+	
+	/* Button Group CSS */
+
+	.btn-group button 
+	
+	{
+  		background-color: transparent; /* Green background */
+  		border: none; /* Green border */
+  		color:black; /* White text */
+  		padding: 10px 24px; /* Some padding */
+  		cursor: pointer; /* Pointer/hand icon */
+		font-family: "Montserrat Light";
+		font-size: 20px;
+	}
+
+	.btn-group button:not(:last-child) 
+	
+	{
+  		border-right: none; /* Prevent double borders */
+	}
+
+/* Add a background color on hover */
+	.btn-group button:hover 
+	
+	{
+  		background-color: none;
+	}
+		
+	.btn-group button:focus
+		
+	{
+		border: transparent;
+	}
+		
+	.btn-group button:active
+		
+	{
+		border:#E9BA44;
+		box-shadow: transparent;
+	}
+		
+	a{
+			color: black;
+	  }
+	a:active
+		{
+			color: black;
+		}
+	a:hover
+		{
+			color: black;
+		}
+		
+.a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+	
+/* Button Group CSS end */
+	
+/* Button Group Container CSS */
+	 	
+	
+	.boxheaderb
+{
+	width: 100%;
+	height: auto;
+	background-color:#108690;
+}
+	
+/* Button Group Container CSS End*/
+	
+
+/* Column CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+
+.quadcol{
+  float: left;
+  width: 25%;
+  padding:10px;
+	
+}
+.fivecol
+{
+  float: left;
+  width: 20%;
+  padding:10px;
+	
+}
+.tricol {
+  float: left;
+  width: 33.3%;
+  padding:10px;
+}
+		
+.doscol {
+  float: left;
+  width: 50%;
+}
+		
+.column {
+  float: left;
+  width: 35%;
+  height: 100%;
+}
+
+.columnr {
+  text-align: right;
+  float: right;
+  width: 65%;
+ height: 100%;
+}
+
+/* Clear floats after the columns 
+	
+/* Column CSS end */
+	
+	
+/* Countdown Case CSS */
+	
+pp {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+  font-family: 'YouAreAToy 8KKn';
+  color: white
+}
+	
+/* Countdown Case CSS end */
+	
+	
+/* Positioning CSS */
+	
+.boxfill
+		{
+			width: 100%;
+			min-height: 100vh;
+		}
+	
+.bordercon
+{
+	border: solid black;
+	border-width: medium;
+	min-height: 100%;
+	position: relative;
+  	text-align: center;
+	width: 100%;
+}
+		
+.center
+{
+	position: relative;
+  	left: 0;
+	padding-top: 5%;
+  	top: 50%;
+ 	width: 100%;
+  	text-align: center;
+  	font-size: 120px;
+		
+}
+		
+.centery
+{
+	position: relative;
+  	left: 0;
+	padding-top: 15%;
+ 	width: 100%;
+  	text-align: center;
+  	font-size: 120px;
+		
+}
+		
+.centercon
+{
+	position:relative;
+ 	width: 100%;
+  	text-align: center;
+  	font-size: 20px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.codetext
+{
+	position:relatives;
+ 	width: 100%;
+  	text-align: center;
+  	font-size: 20px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+		
+.containerpadding
+{
+	padding-left: 10%; 
+	padding-right: 10%;
+}
+		
+.regconpad
+{
+	padding-left: 20%; 
+	padding-right: 20%;
+}
+		
+.lmspacing
+{
+	position: relative;
+  	left: 0;
+ 	width: 100%;
+  	text-align: center;
+  	font-size: 30px;
+	padding-top: 67px;
+}
+	
+.centerleft
+{
+	padding-top: 1%;
+  	left: 0;
+ 	width: 100%;
+  	text-align: left;		
+}
+		
+.centerright
+{
+	padding-top: 1%;
+	position: relative;
+  	left: 0;
+ 	width: 100%;
+  	text-align: right;		
+}
+.centerr
+{
+	padding-top: 1%;
+	position: relative;
+  	left: 0;
+ 	width: 100%;
+  	text-align: center;		
+}
+
+	
+.pad
+	{
+		padding: 0px 0px 10px 0px;
+	}
+		
+.pad
+	{
+		padding-top: 10px;
+		
+	}
+.lrpad
+{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.top-right {
+
+  text-align: right;
+  position: absolute;
+  top: 15%;
+  bottom: 18%;
+  padding-right: 2%;
+  right: 16px;
+  font-family: "Montserrat Bold";
+  color: white;
+  font-size: 6.5vw;
+  height: 100%;
+}
+
+.topbotpad
+{
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+.centerpad
+{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+	
+/* Positioning CSS End */
+	
+
+/* image manipulation CSS */
+	 
+		
+.object-fit_fill { object-fit: fill }
+.object-fit_contain { object-fit: contain }
+.object-fit_cover { object-fit: cover }
+.object-fit_none { object-fit: none }
+.object-fit_scale-down { object-fit: scale-down }
+
+.bg1
+{
+	position: relative;
+}
+.bg2
+{
+	position: relative;
+	display: none;
+    
+}
+
+.bgx1
+{
+	position: relative;
+}
+.bgx2
+{
+	position: relative;
+	display: none;
+    
+}
+	
+/* image manipulation CSS end */
+	
+/* image manipulation CSS end */
+	
+/* Paralax Scrolling Background Effect CSS */
+	
+	
+.cd-section
+{
+	width: 100%;
+	min-height: 100vh;
+  	background-size: cover;
+  	background-repeat: repeat-x,repeat-y;
+ 	background-position: center center;
+	background-attachment: scroll;
+}
+
+.cd-section--bg-fixed 
+{
+  	min-height: 100vh;
+	background-size: 100%;
+  	background-attachment:fixed;
+}
+		
+.cd-section--bg-2
+{
+	min-height: 1080px;
+	background-image: url("../../Media/Pictures/homf con.png");
+  	background-attachment: fixed;
+}
+		
+.cd-section--bg-fixed-white
+{
+  	max-height: 100vh;
+	width: 100%;
+	background-color: white;
+  	background-attachment: fixed;
+}
+		
+.cd-section-fixed-transparent
+{
+	background-color: transparent;
+	background-attachment: fixed;
+}
+		
+.cd-section-half-cap
+{
+	max-height: 50vh;
+	height: 50%;
+	background-color: transparent;
+  	background-attachment: fixed;
+	
+}
+			
+	
+/* Paralax Scrolling Background Effect CSS end */
+	
+	
+
+/* text css for home main */
+	
+	.hmbox
+	{
+		padding-top: 20%;
+		padding-bottom: 20%;
+		position: absolute;
+	}
+	
+	.hmtext1
+	{
+		font-family: "Poppins Bold";
+		text-align: right;
+		font-size: 20px;
+		color: white;
+		
+	}
+	
+	.hmtext2
+	{
+		font-family: "Poppins Bold";
+		text-align: right;
+		font-size: 20px;
+		color: red;
+	}
+
+	.headertext
+	{
+		font-family: "Montserrat Light";
+		text-align: left;
+		font-size: 10px;
+		color: black;
+	}
+		.headertextl
+	{
+		font-family: "Montserrat Light";
+		text-align: left;
+		font-size: 10px;
+		color: black;
+	}
+		.headertextr
+	{
+		font-family: "Montserrat Light";
+		text-align: right;
+		font-size: 10px;
+		color: black;
+	}
+	
+	
+/* Fontfaces CSS */
+	
+@font-face
+	{
+		font-family: 'Poppins Regular', sans-serif;
+		src: url("../../Fonts/Fonts/Poppins-Regular.ttf");
+		font-weight: normal;
+		font-style: normal;
+	}
+ 
+@font-face
+	{
+		font-family: "Roboto Bold";
+		src: url("../../Fonts/Fonts/Roboto-Bold.ttf");
+		font-weight: normal;
+		font-style: normal;
+	}
+@font-face
+	{
+		font-family: "Montserrat Light";
+		src: url("../../Fonts/Fonts/Montserrat-Light.ttf");
+		font-weight: normal;
+		font-style: normal;
+	}
+@font-face
+	{
+		font-family: "Poppins Bold";
+		src: url("../../Fonts/Fonts/Poppins-Bold.ttf");
+		font-weight: normal;
+		font-style: normal;
+	}
+
+@font-face 
+{
+    font-family: Komiko;
+    src:url("/home/Komiko-vY74.ttf");
+    font-weight: normal;
+    font-style: normal;
+
+}
+	
+@font-face
+{
+	font-family: "ChelseaMarket Regular";
+	src: url("/home/ChelseaMarket-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+	
+@font-face
+{
+	font-family:"Roboto Medium";
+	src: url("/home/Roboto-Medium.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+		
+@font-face
+{
+	font-family:Childrensans;
+	src: url("/home/Childrensans-7BOGR.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family:"YouAreAToy 8KKn";
+	src: url("/home/YouAreAToy-8KKn.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family:"Raleway ExtraBold";
+	src: url("/home/Raleway-ExtraBold.ttf");
+	font-weight: normal;
+	font-style: normal
+}
+	
+/* Fontfaces CSS */
+	
+/* text CSS */
+	
+	
+	.header
+	{
+		font-family:Childrensans;
+		font-size: 50px;
+		color: black;
+	}
+	
+	.content
+	{
+		font-family:"Childrensans";
+		font-size: 35px;
+		color: black;
+	}
+	.contentheader
+	{
+		font-family:"Childrensans";
+		font-size: 50px;
+		color: black;
+	}
+
+	.subcontent
+	{
+		font-family:"Childrensans";
+		font-size: 25px;
+		color: black;
+	}
+	
+	.largetext
+	{
+		text-align: right;
+		font-family: "Poppins Bold, sans-serif";
+		font-size: 250px;
+		color: black;
+	}
+	.smalltext
+	{
+		text-align: right;
+		font-family: "Poppins Regular, sans-serif";
+		font-size: 20px;
+		color: black;
+	}
+	
+	.dpt
+	{
+		color: black;
+		text-align: left;
+		font-size: 60px;
+		font-family: 'Montserrat Light, sans-serif';
+	}
+		
+
+/* text CSS end */
+	
+/* Reg Form CSS */
+	
+		
+input[type=text], select 
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=t1], select 
+{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+		
+input[type=t2], select 
+{
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+		
+input[type=email], select 
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+		
+input[type=submit] {
+  width: 50%;
+  background-color: #E9BA44;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Childrensans;
+  font-size: 40px;
+}
+
+input[type=submit]:hover {
+  background-color:#4BC4D5;
+}
+
+
+	
+/* Reg Form CSS end */
+	
+/* Mobile resizing */
+	
+		
+		@media screen and (max-width: 1000px) {
+			
+		.header
+	{
+		font-family:Childrensans;
+		font-size: 20px;
+		color: black;
+	}
+	
+	.content
+	{
+		font-family:"Childrensans";
+		font-size: 15px;
+		color: black;
+	}
+
+	.subcontent
+
+	{
+		font-family:"Childrensans";
+		font-size: 18px;
+		color: black;
+	}
+	
+	.centerleft
+	{
+		font-size: 20px;
+	}
+	
+		
+	.doscol 
+	{
+  		float: left;
+  		width: 100%;
+  		padding: 10px;
+  		height: 100%;
+	}
+			
+	.tricol
+		{
+			width: 100%;
+		}
+
+			
+		.containerpadding
+		{
+			padding-left: 3%;
+			padding-right: 3%;
+		}
+			
+		.regconp
+			
+			{
+				padding-left: 3%;
+				padding-right: 3%;
+			}
+		
+	.centercon
+{
+	position: relative;
+ 	width: 100%;
+  	text-align: center;
+  	font-size: 20px;
+}
+		.contentheader
+		{
+		font-family:"Childrensans";
+		font-size: 20px;
+		color: black;
+		}
+		
+
+input[type=submit] {
+  width: 80%;
+  background-color: #E9BA44;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Childrensans;
+  font-size: 20px;
+
+	}
+			
+	.btn-group button 
+			{
+				font-size: 8px;
+				padding: 10px 10px;
+				font-family: "Montserrat Light";
+			}
+			
+	.column
+			{
+				width: 100%;
+				height: auto;
+			}
+	.columnr
+			{
+				width: 100%;
+				height: auto;
+			}
+		
+	.btn-danger
+			{
+				font-size: 10px;
+			}
+}
+
+
+@media screen and (max-width: 1100px) 
+{	.column
+			{
+				width: 100%;
+				height: auto;
+			}
+	.columnr
+			{
+				width: 100%;
+				height: auto;
+			}
+}
+	@media screen and (max-width: 990px) /*  and (max-width: 1100px) and ( max-width: 1600px) */
+{	.top-right
+			{
+				left:5%;
+				text-align: left;
+				top: 25%;
+				right: 0px;
+				font-size: 15vw;
+				bottom: 10%;
+				
+			}
+	.bg1
+	{
+		display: none;
+	}
+	
+	.bg2
+	{
+		display: block;
+	}
+	.bgx1
+	{
+		display: none;
+	}
+	
+	.bgx2
+	{
+		display: block;
+	}
+}
+	/* Mobile resizing end */ 
