@@ -28,136 +28,6 @@ body{
 	background-color: #8167a9;
 }
 
-
-/* #Navigation
-================================================== */
-
-.start-header {
-	opacity: 1;
-	transform: translateY(0);
-	padding: 20px 0;
-	box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
-	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
-}
-.start-header.scroll-on {
-	box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
-	padding: 10px 0;
-	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
-}
-.start-header.scroll-on .navbar-brand img{
-	height: 24px;
-	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
-}
-.navigation-wrap{
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 1000;
-	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
-}
-.navbar{
-	padding: 0;
-}
-.navbar-brand img{
-	height: 28px;
-	width: auto;
-	display: block;
-  filter: brightness(10%);
-	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
-}
-.navbar-toggler {
-	float: right;
-	border: none;
-	padding-right: 0;
-}
-.navbar-toggler:active,
-.navbar-toggler:focus {
-	outline: none;
-}
-.navbar-light .navbar-toggler-icon {
-	width: 24px;
-	height: 17px;
-	background-image: none;
-	position: relative;
-	border-bottom: 1px solid #000;
-    transition: all 300ms linear;
-}
-.navbar-light .navbar-toggler-icon:after, 
-.navbar-light .navbar-toggler-icon:before{
-	width: 24px;
-	position: absolute;
-	height: 1px;
-	background-color: #000;
-	top: 0;
-	left: 0;
-	content: '';
-	z-index: 2;
-    transition: all 300ms linear;
-}
-.navbar-light .navbar-toggler-icon:after{
-	top: 8px;
-}
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
-	transform: rotate(45deg);
-}
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
-	transform: translateY(8px) rotate(-45deg);
-}
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-	border-color: transparent;
-}
-.nav-link{
-	color: #212121 !important;
-	font-weight: 500;
-    transition: all 200ms linear;
-}
-.nav-item:hover .nav-link{
-	color: #8167a9 !important;
-}
-.nav-item.active .nav-link{
-	color: #777 !important;
-}
-.nav-link {
-	position: relative;
-	padding: 5px 0 !important;
-	display: inline-block;
-}
-.nav-item:after{
-	position: absolute;
-	bottom: -5px;
-	left: 0;
-	width: 100%;
-	height: 2px;
-	content: '';
-	background-color: #8167a9;
-	opacity: 0;
-    transition: all 200ms linear;
-}
-.nav-item:hover:after{
-	bottom: 0;
-	opacity: 1;
-}
-.nav-item.active:hover:after{
-	opacity: 0;
-}
-.nav-item{
-	position: relative;
-    transition: all 200ms linear;
-}
-
-/* #Primary style
-================================================== */
-
-.bg-light {
-	background-color: #fff !important;
-    transition: all 200ms linear;
-}
 .section {
     position: relative;
 	width: 100%;
@@ -167,7 +37,8 @@ body{
 	background-repeat:no-repeat;
 	background-size: 100%;
 	background-image:url("bgs3.png");
-    position:absolute;
+    position:relative;
+	top: 275%;
 	width: 100%;
 	display: block;
 }
@@ -194,354 +65,6 @@ body{
 .full-height {
     height: 100vh;
 }
-.over-hide {
-    overflow: hidden;
-}
-.absolute-center {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	width: 100%;
-  margin-top: 40px;
-	transform: translateY(-50%);
-	z-index: 20;
-}
-h1{
-	font-size: 48px;
-	line-height: 1.2;
-	font-weight: 700;
-	color: #212112;
-	text-align: center;
-}
-p{
-	text-align: center;
-	margin: 0;
-	padding-top: 10px;
-	opacity: 1;
-	transform: translate(0);
-    transition: all 300ms linear;
-    transition-delay: 1700ms;
-}
-body.hero-anime p{
-	opacity: 0;
-	transform: translateY(40px);
-    transition-delay: 1700ms;
-}
-h1 span{
-	display: inline-block;
-    transition: all 300ms linear;
-	opacity: 1;
-	transform: translate(0);
-}
-body.hero-anime h1 span:nth-child(1){
-	opacity: 0;
-	transform: translateY(-20px);
-}
-body.hero-anime h1 span:nth-child(2){
-	opacity: 0;
-	transform: translateY(-30px);
-}
-body.hero-anime h1 span:nth-child(3){
-	opacity: 0;
-	transform: translateY(-50px);
-}
-body.hero-anime h1 span:nth-child(4){
-	opacity: 0;
-	transform: translateY(-10px);
-}
-body.hero-anime h1 span:nth-child(5){
-	opacity: 0;
-	transform: translateY(-50px);
-}
-body.hero-anime h1 span:nth-child(6){
-	opacity: 0;
-	transform: translateY(-20px);
-}
-body.hero-anime h1 span:nth-child(7){
-	opacity: 0;
-	transform: translateY(-40px);
-}
-body.hero-anime h1 span:nth-child(8){
-	opacity: 0;
-	transform: translateY(-10px);
-}
-body.hero-anime h1 span:nth-child(9){
-	opacity: 0;
-	transform: translateY(-30px);
-}
-body.hero-anime h1 span:nth-child(10){
-	opacity: 0;
-	transform: translateY(-20px);
-}
-h1 span:nth-child(1){
-    transition-delay: 1000ms;
-}
-h1 span:nth-child(2){
-    transition-delay: 700ms;
-}
-h1 span:nth-child(3){
-    transition-delay: 900ms;
-}
-h1 span:nth-child(4){
-    transition-delay: 800ms;
-}
-h1 span:nth-child(5){
-    transition-delay: 1000ms;
-}
-h1 span:nth-child(6){
-    transition-delay: 700ms;
-}
-h1 span:nth-child(7){
-    transition-delay: 900ms;
-}
-h1 span:nth-child(8){
-    transition-delay: 800ms;
-}
-h1 span:nth-child(9){
-    transition-delay: 600ms;
-}
-h1 span:nth-child(10){
-    transition-delay: 700ms;
-}
-body.hero-anime h1 span:nth-child(11){
-	opacity: 0;
-	transform: translateY(30px);
-}
-body.hero-anime h1 span:nth-child(12){
-	opacity: 0;
-	transform: translateY(50px);
-}
-body.hero-anime h1 span:nth-child(13){
-	opacity: 0;
-	transform: translateY(20px);
-}
-body.hero-anime h1 span:nth-child(14){
-	opacity: 0;
-	transform: translateY(30px);
-}
-body.hero-anime h1 span:nth-child(15){
-	opacity: 0;
-	transform: translateY(50px);
-}
-h1 span:nth-child(11){
-    transition-delay: 1300ms;
-}
-h1 span:nth-child(12){
-    transition-delay: 1500ms;
-}
-h1 span:nth-child(13){
-    transition-delay: 1400ms;
-}
-h1 span:nth-child(14){
-    transition-delay: 1200ms;
-}
-h1 span:nth-child(15){
-    transition-delay: 1450ms;
-}
-#switch,
-#circle {
-	cursor: pointer;
-	-webkit-transition: all 300ms linear;
-	transition: all 300ms linear; 
-} 
-#switch {
-	width: 60px;
-	height: 8px;
-	border: 2px solid #8167a9;
-	border-radius: 27px;
-	background: #000;
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	opacity: 1;
-	transform: translate(0);
-    transition: all 300ms linear;
-    transition-delay: 1900ms;
-}
-body.hero-anime #switch{
-	opacity: 0;
-	transform: translateY(40px);
-    transition-delay: 1900ms;
-}
-#circle {
-	position: absolute;
-	top: -11px;
-	left: -13px;
-	width: 26px;
-	height: 26px;
-	border-radius: 50%;
-	background: #000;
-}
-.switched {
-	border-color: #000 !important;
-	background: #8167a9 !important;
-}
-.switched #circle {
-	left: 43px;
-	box-shadow: 0 4px 4px rgba(26,53,71,0.25), 0 0 0 1px rgba(26,53,71,0.07);
-	background: #fff;
-}
-.nav-item .dropdown-menu {
-    transform: translate3d(0, 10px, 0);
-    visibility: hidden;
-    opacity: 0;
-	max-height: 0;
-    display: block;
-	padding: 0;
-	margin: 0;
-    transition: all 200ms linear;
-}
-.nav-item.show .dropdown-menu {
-    opacity: 1;
-    visibility: visible;
-	max-height: 999px;
-    transform: translate3d(0, 0px, 0);
-}
-.dropdown-menu {
-	padding: 10px!important;
-	margin: 0;
-	font-size: 13px;
-	letter-spacing: 1px;
-	color: #212121;
-	background-color: #fcfaff;
-	border: none;
-	border-radius: 3px;
-	box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
-    transition: all 200ms linear;
-}
-.dropdown-toggle::after {
-	display: none;
-}
-
-.dropdown-item {
-	padding: 3px 15px;
-	color: #212121;
-	border-radius: 2px;
-    transition: all 200ms linear;
-}
-.dropdown-item:hover, 
-.dropdown-item:focus {
-	color: #fff;
-	background-color: rgba(129,103,169,.6);
-}
-
-body.dark{
-	color: #fff;
-	background-color: #1f2029;
-}
-body.dark .navbar-brand img{
-  filter: brightness(100%);
-}
-body.dark h1{
-	color: #fff;
-}
-body.dark h1 span{
-    transition-delay: 0ms !important;
-}
-body.dark p{
-	color: #fff;
-    transition-delay: 0ms !important;
-}
-body.dark .bg-light {
-	background-color: #14151a !important;
-}
-body.dark .start-header {
-	box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
-}
-body.dark .start-header.scroll-on {
-	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
-}
-body.dark .nav-link{
-	color: #fff !important;
-}
-body.dark .nav-item.active .nav-link{
-	color: #999 !important;
-}
-body.dark .dropdown-menu {
-	color: #fff;
-	background-color: #1f2029;
-	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
-}
-body.dark .dropdown-item {
-	color: #fff;
-}
-body.dark .navbar-light .navbar-toggler-icon {
-	border-bottom: 1px solid #fff;
-}
-body.dark .navbar-light .navbar-toggler-icon:after, 
-body.dark .navbar-light .navbar-toggler-icon:before{
-	background-color: #fff;
-}
-body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-	border-color: transparent;
-}
-
-
-
-/* #Media
-================================================== */
-
-@media (max-width: 767px) { 
-	h1{
-		font-size: 38px;
-	}
-	.nav-item:after{
-		display: none;
-	}
-	.nav-item::before {
-		position: absolute;
-		display: block;
-		top: 15px;
-		left: 0;
-		width: 11px;
-		height: 1px;
-		content: "";
-		border: none;
-		background-color: #000;
-		vertical-align: 0;
-	}
-	.dropdown-toggle::after {
-		position: absolute;
-		display: block;
-		top: 10px;
-		left: -23px;
-		width: 1px;
-		height: 11px;
-		content: "";
-		border: none;
-		background-color: #000;
-		vertical-align: 0;
-		transition: all 200ms linear;
-	}
-	.dropdown-toggle[aria-expanded="true"]::after{
-		transform: rotate(90deg);
-		opacity: 0;
-	}
-	.dropdown-menu {
-		padding: 0 !important;
-		background-color: transparent;
-		box-shadow: none;
-		transition: all 200ms linear;
-	}
-	.dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
-		margin-top: 10px !important;
-		margin-bottom: 20px !important;
-	}
-	body.dark .nav-item::before {
-		background-color: #fff;
-	}
-	body.dark .dropdown-toggle::after {
-		background-color: #fff;
-	}
-	body.dark .dropdown-menu {
-		background-color: transparent;
-		box-shadow: none;
-	}
-}
-
-/* #Link to page
-================================================== */
 
 .logo {
 	position: absolute;
@@ -584,7 +107,7 @@ height: 449px;
 left: 0px;
 top: 0px;
 	
-color: white;
+color: black;
 
 /* Inside auto layout */
 
@@ -605,4 +128,541 @@ line-height: 61px;
 letter-spacing: 0em;
 text-align: left;
 
+}
+
+/* Text CCSS */
+
+/* Why Go Ultra? */
+
+.ta{
+
+/* We’re Built Differently */
+
+
+position: absolute;
+width: 100vw;
+height: 74px;
+left: 138px;
+top: 294px;
+
+/* H0 */
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 74px;
+/* identical to box height */
+
+
+color: #25203F;
+}
+
+.t1 {
+position: absolute;
+width: 311px;
+height: 61px;
+left: 108px;
+top: 44px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 46px;
+line-height: 61px;
+/* identical to box height */
+
+color: #25203F;
+}
+
+.ta1{
+	
+	/* Experience uncompromising performance with our bare-metal servers. Let’s discuss what we can build and make possible for you */
+
+
+position: absolute;
+width: 578px;
+height: 48px;
+left: 138px;
+top: 384px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+
+color: rgba(37, 32, 63, 0.8);
+}
+
+.b1t{
+	
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 26px 12pX;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #25203F;
+border-radius: 4px;
+color: white;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.button1{
+	
+	/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 165px;
+height: 44px;
+left: 138px;
+top: 480px;
+}
+
+
+
+
+
+
+.ourp{
+
+position: relative;
+width: 1920px;
+height: 449px;
+left: 20%;
+right: 20%;
+top: 0px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 144px 0px;
+}
+
+.ourptitle{
+	
+	/* Our Products */
+
+
+position: relative;
+width: 294px;
+height: 61px;
+left: 15%;
+right: 20%;
+top: 0px;
+
+/* H1 */
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 46px;
+line-height: 61px;
+/* identical to box height */
+
+
+color: #25203F;
+
+}
+
+.ourpbody{
+	
+	/* Experience uncompromising performance with our bare-metal servers. Our servers by default are packaged with our Unlimited priority traffic plan */
+
+align-content: center;
+position: relative;
+width: 681px;
+height: 48px;
+left: 5%;
+right: 20%;
+top: 16px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+
+color: rgba(63, 59, 86, 0.8);
+}
+
+
+.iconcon{
+
+display: grid;
+grid-template-columns: auto auto auto;
+align-items: flex-start;
+position: relative;
+width: 100vw;
+height: 264px;
+left:  -11%;
+right: 0px;
+top: 185px;
+}
+
+.iconcon1{
+
+display: grid;
+grid-template-columns: auto auto auto;
+align-items: flex-start;
+position: relative;
+width: 100vw;
+height: 264px;
+left:  -85%;
+right: 0px;
+top: 134px;
+}
+
+.iconrow{
+	
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 1266px;
+height: 120px;
+left: 0px;
+top: 0px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.iconitem
+{
+position: static;
+width: 406px;
+height: 120px;
+left: 0px;
+top: 20px;
+bottom: 0px;
+	
+background: #FFFFFF;
+border: 4px solid rgba(114, 114, 192, 0.12);
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+.iconn{
+	
+position: static;
+width: 86px;
+height: 86px;
+left: 0px;
+top: 0px;
+
+background: rgba(255, 255, 255, 0.6);
+box-shadow: 4px 4px 24px rgba(114, 114, 192, 0.12);
+border-radius: 300px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 36px;
+}
+
+.icontext
+{
+position: static;
+width: 186px;
+height: 86px;
+left: 0px;
+top: 0px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: left;
+
+color: #25203F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+}
+
+
+
+.ournetwork
+{
+	position: absolute;
+width: 1920px;
+height: 849px;
+left: 0px;
+top: 0px;
+}
+
+.ourntitle
+{
+	
+position: absolute;
+width: 282px;
+height: 61px;
+left: 792px;
+top: 0px;
+
+/* H1 */
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 46px;
+line-height: 61px;
+/* identical to box height */
+
+
+color: #25203F;
+}
+
+/* Column CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+
+.quadcol{
+  float: left;
+  width: 25%;
+  padding:10px;
+	
+}
+.fivecol
+{
+  float: left;
+  width: 20%;
+  padding:10px;
+	
+}
+.tricol {
+  float: left;
+  width: 33.3%;
+  padding:10px;
+}
+		
+.doscol {
+  float: left;
+  width: 50%;
+}
+		
+.column {
+  float: left;
+  width: 35%;
+  height: 100%;
+}
+
+.columnr {
+  text-align: right;
+  float: right;
+  width: 65%;
+  height: 100%;
+}
+
+
+.wbd{
+	/* We’re Built Differently... */
+
+
+position: relative;
+width: 490px;
+height: 61px;
+top: 290px;
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 46px;
+line-height: 61px;
+margin-left: 550px;
+/* identical to box height */
+
+
+color: #25203F;
+}
+
+.wbdtextcon1
+{
+	/* Frame 91 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: relative;
+width: 480px;
+height: 358px;
+top: 64px;
+}
+
+.wbdtextcon2
+{
+top: -290px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: relative;
+width: 480px;
+height: 358px;
+margin-left: 550px;
+}
+.wbdtext{
+	/* Frame 90 */
+
+
+position: static;
+width: 384px;
+height: 155px;
+left: 96px;
+top: 0px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+.wbdtitle
+{
+position: relative;
+width: 271px;
+height: 29px;
+left: 0px;
+top: 0px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 29px;
+
+color: #25203F;
+}
+
+.wbdbody
+{
+position: relative;
+width: 384px;
+height: 110px;
+left: 0px;
+top: 10px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* or 137% */
+
+
+color: rgba(37, 32, 63, 0.65);
+}
+
+.ourlocation{
+position: relative;
+width: 308px;
+height: 61px;
+top: -7px;
+margin-left: 40%;
+/* H1 */
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 46px;
+line-height: 61px;
+/* identical to box height */
+
+
+color: #25203F;
+	
+}
+
+.ourlhead{
+	
+}
+.ourlobody{
+	
+/* Experience uncompromising performance with our bare-metal servers. Our servers by default are packaged with our Unlimited priority traffic plan */
+
+
+position: absolute;
+width: 681px;
+height: 48px;
+left: 399px;
+top: 79px;
+
+/* Subheader */
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+
+color: rgba(63, 59, 86, 0.8);
+	
+}
+
+.contactcon
+{
+position: absolute;
+width: 533px;
+height: 530px;
+left: 55%;
+top: 170px;
+
+background: linear-gradient(101.08deg, rgba(219, 233, 253, 0.8) 0.87%, rgba(203, 199, 255, 0.8) 47.85%, rgba(228, 202, 255, 0.8) 100%);
+box-shadow: 0px 16px 24px rgba(37, 32, 63, 0.08);
+border-radius: 12px;
 }
