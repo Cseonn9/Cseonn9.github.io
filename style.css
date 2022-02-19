@@ -307,6 +307,116 @@ text-align: center;
 color: rgba(63, 59, 86, 0.8);
 }
 
+.ourpicon1{
+	
+position: relative;
+width: 86px;
+height: 86px;
+left: 0px;
+top: 14px;
+
+background-image:url("Assets/Database_perspective_matte.png");
+background-size: 100%;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 36px;
+}
+
+.ourpicon2{
+	
+position: relative;
+width: 86px;
+height: 86px;
+left: 0px;
+top: 14px;
+
+background-image:url("Assets/Crown_perspective_matte.png");
+background-size: 100%;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 36px;
+}
+.ourpicon3{
+	
+position: relative;
+width: 86px;
+height: 86px;
+left: 0px;
+top: 14px;
+
+background-image:url("Assets/Location_perspective_matte.png");
+background-size: 100%;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 36px;
+}
+.ourpicon4{
+	
+position: relative;
+width: 86px;
+height: 86px;
+left: 0px;
+top: 14px;
+
+background-image:url("Assets/Settings_perspective_matte.png");
+background-size: 100%;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 36px;
+}
+.ourpicon5{
+	
+position: relative;
+width: 86px;
+height: 86px;
+left: 0px;
+top: 14px;
+
+background-image:url("Assets/table-globe-4035948-3342373@0.png");
+background-size: 100%;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 36px;
+}
+.ourpicon6{
+	
+position: relative;
+width: 86px;
+height: 86px;
+left: 0px;
+top: 14px;
+
+background-image:url("Assets/Add_apps_perspective_matte 1.png");
+background-size: 100%;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 36px;
+}
+
 
 .iconcon{
 
@@ -318,7 +428,7 @@ width: 100vw;
 height: 264px;
 left:  -11%;
 right: 0px;
-top: 185px;
+top: 85px;
 }
 
 .iconcon1{
@@ -358,13 +468,10 @@ margin: 24px 0px;
 
 .iconitem
 {
-position: static;
+position: relative;
 width: 406px;
 height: 120px;
 left: 0px;
-top: 20px;
-bottom: 0px;
-	
 background: #FFFFFF;
 border: 4px solid rgba(114, 114, 192, 0.12);
 border-radius: 12px;
@@ -399,10 +506,10 @@ margin: 0px 36px;
 
 .icontext
 {
-position: static;
+position: relative;
 width: 186px;
 height: 86px;
-left: 0px;
+left:90px;
 top: 0px;
 
 font-family: Red Hat Display;
@@ -429,11 +536,11 @@ margin: 0px 24px;
 
 .ournetwork
 {
-	position: absolute;
+position: relative;
 width: 1920px;
 height: 849px;
 left: 0px;
-top: 0px;
+top: 144px;
 }
 
 .ourntitle
@@ -442,7 +549,7 @@ top: 0px;
 position: absolute;
 width: 282px;
 height: 61px;
-left: 792px;
+left: 300px;
 top: 0px;
 
 /* H1 */
@@ -458,6 +565,37 @@ line-height: 61px;
 color: #25203F;
 }
 
+.nboxcon{
+position: absolute;
+width: 1584px;
+height: 721px;
+left: 167px;
+top: 121px;
+
+}
+
+.ourncountrycon
+{
+position: absolute;
+width: 1052px;
+height: 33px;
+left: 433px;
+top: 121px;
+}
+.ourncountrytext{
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #25203F
+}
 /* Column CSS */
 
 * {
@@ -665,4 +803,258 @@ top: 170px;
 background: linear-gradient(101.08deg, rgba(219, 233, 253, 0.8) 0.87%, rgba(203, 199, 255, 0.8) 47.85%, rgba(228, 202, 255, 0.8) 100%);
 box-shadow: 0px 16px 24px rgba(37, 32, 63, 0.08);
 border-radius: 12px;
+}
+
+.conttext{
+/* Frame 131 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 100%;
+height: 431px;
+left: 56px;
+top: 44px;
+}
+
+.conttitle1{
+	
+position: relative;
+width: 100%;
+height: 42px;
+left: 0px;
+top: 0px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 42px;
+
+color: #25203F
+}
+
+.contbody{
+position: absolute;
+width: 100%;
+height: 42px;
+left: 0px;
+top: 0px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 42px;
+
+color: #25203F
+}
+
+.continitial{
+	
+position: static;
+width: 100%;
+left: 0px;
+top: 0px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #25203F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px;
+}
+
+.continitial1{
+	
+position: static;
+width: 100%;
+left: 0px;
+margin-top: 85px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #25203F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px;
+}
+
+.contnext{
+	
+position: inherit;
+width: 202px;
+height: 24px;
+top: 0px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #25203F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+}
+
+.contnext1{
+	
+position: inherit;
+width: 202px;
+height: 24px;
+top: 0px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #25203F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.ultracon{
+	
+	/* Frame 24 */
+
+
+/* Auto layout */
+	
+  display: grid;
+  column-gap: 16px;
+  grid-template-columns: auto auto auto auto;
+
+position: relative;
+width: 975px;
+height: 54px;
+left: 505px;
+}
+
+.ultraicon1{
+	
+position: relative;
+width: 42px;
+height: 42px;
+left: 0px;
+margin-left: 80px;
+
+background-image: url("Assets/Unlimited.png");
+background-size: 100%;
+}
+
+.ultraicon2{
+	
+position: relative;
+width: 42px;
+height: 42px;
+left: 0px;
+margin-left: 80px;
+
+background-image: url("Assets/Lan.png");
+background-size: 100%;
+}
+
+.ultraicon3{
+	
+position: relative;
+width: 42px;
+height: 42px;
+left: 0px;
+margin-left: 80px;
+
+background-image: url("Assets/Dedicated.png");
+background-size: 100%;
+}
+
+.ultraicon4{
+	
+position: relative;
+width: 42px;
+height: 42px;
+left: 0px;
+margin-left: 80px;
+
+background-image:url("Assets/Support.png");
+background-size: 100%;
+}
+
+.ultratext{
+	
+position: relative;
+width: 178px;
+height: 48px;
+left: 64px;
+top: 0px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+letter-spacing: 0.03em;
+
+color: rgba(37, 32, 63, 0.9);
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 16px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  position: relative;
+width: 975px;
+height: 54px;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: left;
 }
