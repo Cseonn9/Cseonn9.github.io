@@ -38,9 +38,10 @@ body{
 	background-size: 100%;
 	background-image:url("bgs3.png");
     position:relative;
-	top: 275%;
+	top: 300%;
 	width: 100%;
 	display: block;
+	z-index: -1;
 }
 
 .section1 {
@@ -63,6 +64,7 @@ body{
 }
 
 .full-height {
+	z-index: -1;
     height: 100vh;
 }
 
@@ -163,12 +165,12 @@ position: absolute;
 width: 311px;
 height: 61px;
 left: 108px;
-top: 44px;
+top:39px;
 
 font-family: Red Hat Display;
 font-style: normal;
 font-weight: bold;
-font-size: 46px;
+font-size: 39px;
 line-height: 61px;
 /* identical to box height */
 
@@ -201,7 +203,7 @@ display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 12px 26px 12pX;
-
+font-size: 15px;
 position: absolute;
 left: 0%;
 right: 0%;
@@ -230,7 +232,7 @@ align-items: flex-start;
 padding: 0px;
 
 position: absolute;
-width: 165px;
+width: 175px;
 height: 44px;
 left: 138px;
 top: 480px;
@@ -246,7 +248,7 @@ top: 480px;
 position: relative;
 width: 1920px;
 height: 449px;
-left: 20%;
+left: 40%;
 right: 20%;
 top: 0px;
 
@@ -439,7 +441,7 @@ align-items: flex-start;
 position: relative;
 width: 100vw;
 height: 264px;
-left:  -85%;
+left:  -76.5%;
 right: 0px;
 top: 134px;
 }
@@ -540,7 +542,7 @@ position: relative;
 width: 1920px;
 height: 849px;
 left: 0px;
-top: 144px;
+top: 244px;
 }
 
 .ourntitle
@@ -570,30 +572,28 @@ position: absolute;
 width: 1584px;
 height: 721px;
 left: 167px;
-top: 121px;
+top: 85px;
 
 }
 
 .ourncountrycon
 {
 position: absolute;
-width: 1052px;
+width: 500px;
 height: 33px;
-left: 433px;
-top: 121px;
+left: 198px;
+top: 0px;
 }
 .ourncountrytext{
+position: relative;
 font-family: Red Hat Display;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 24px;
 /* identical to box height */
-
-display: flex;
-align-items: center;
-text-align: center;
-
+top: 12px;
+left: 12px;
 color: #25203F
 }
 /* Column CSS */
@@ -627,6 +627,12 @@ color: #25203F
   float: left;
   width: 50%;
 }
+
+.doscolwbd {
+	left: 100px;
+  float: left;
+  width: 50%;
+}
 		
 .column {
   float: left;
@@ -647,13 +653,13 @@ color: #25203F
 
 
 position: relative;
-width: 490px;
+width: 570px;
 height: 61px;
-top: 290px;
+top: 220px;
 font-family: Red Hat Display;
 font-style: normal;
 font-weight: bold;
-font-size: 46px;
+font-size: 54px;
 line-height: 61px;
 margin-left: 550px;
 /* identical to box height */
@@ -674,21 +680,20 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 position: relative;
-width: 480px;
+width: 440px;
 height: 358px;
 top: 64px;
 }
 
 .wbdtextcon2
 {
-top: -290px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-position: relative;
-width: 480px;
+position: absolute;
+width: 440px;
 height: 358px;
-margin-left: 550px;
+margin-left: 400px;
 }
 .wbdtext{
 	/* Frame 90 */
@@ -712,15 +717,15 @@ margin: 0px 16px;
 .wbdtitle
 {
 position: relative;
-width: 271px;
+width: 300px;
 height: 29px;
-left: 0px;
+left: 75px;
 top: 0px;
 
 font-family: Red Hat Display;
 font-style: normal;
 font-weight: bold;
-font-size: 22px;
+font-size: 20px;
 line-height: 29px;
 
 color: #25203F;
@@ -729,15 +734,16 @@ color: #25203F;
 .wbdbody
 {
 position: relative;
-width: 384px;
+width: 300px;
 height: 110px;
-left: 0px;
+left: 75px;
 top: 10px;
+margin-bottom: 30px;
 
 font-family: Red Hat Display;
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
+font-size: 14px;
 line-height: 22px;
 /* or 137% */
 
@@ -818,7 +824,6 @@ padding: 0px;
 
 position: absolute;
 width: 100%;
-height: 431px;
 left: 56px;
 top: 44px;
 }
@@ -829,7 +834,7 @@ position: relative;
 width: 100%;
 height: 42px;
 left: 0px;
-top: 0px;
+top: 75px;
 
 font-family: Red Hat Display;
 font-style: normal;
@@ -884,11 +889,11 @@ margin: 0px;
 
 .continitial1{
 	
-position: static;
+position: relative;
 width: 100%;
 left: 0px;
 margin-top: 85px;
-
+top:40px;
 font-family: Red Hat Display;
 font-style: normal;
 font-weight: 600;
@@ -910,11 +915,10 @@ margin: 0px;
 
 .contnext{
 	
-position: inherit;
+position: relative;
 width: 202px;
 height: 24px;
-top: 0px;
-
+margin-top: 40px;
 font-family: Red Hat Display;
 font-style: normal;
 font-weight: normal;
@@ -979,8 +983,8 @@ left: 505px;
 .ultraicon1{
 	
 position: relative;
-width: 42px;
-height: 42px;
+width: 35px;
+height: 35px;
 left: 0px;
 margin-left: 80px;
 
@@ -991,8 +995,8 @@ background-size: 100%;
 .ultraicon2{
 	
 position: relative;
-width: 42px;
-height: 42px;
+width: 35px;
+height: 35px;
 left: 0px;
 margin-left: 80px;
 
@@ -1003,8 +1007,8 @@ background-size: 100%;
 .ultraicon3{
 	
 position: relative;
-width: 42px;
-height: 42px;
+width: 35px;
+height: 35px;
 left: 0px;
 margin-left: 80px;
 
@@ -1015,8 +1019,8 @@ background-size: 100%;
 .ultraicon4{
 	
 position: relative;
-width: 42px;
-height: 42px;
+width: 35px;
+height: 35px;
 left: 0px;
 margin-left: 80px;
 
@@ -1029,13 +1033,13 @@ background-size: 100%;
 position: relative;
 width: 178px;
 height: 48px;
-left: 64px;
-top: 0px;
+left: 44px;
+top: -5px;
 
 font-family: Red Hat Display;
 font-style: normal;
 font-weight: 600;
-font-size: 18px;
+font-size: 16px;
 line-height: 24px;
 /* or 133% */
 
@@ -1045,12 +1049,15 @@ color: rgba(37, 32, 63, 0.9);
 }
 
 .grid-container {
+	
+  left: 240px;
+  top: -15px;
   display: grid;
-  column-gap: 16px;
+  column-gap: 40px;
   grid-template-columns: auto auto auto auto;
   padding: 10px;
-  position: relative;
-width: 975px;
+  position:absolute;
+width: 100%;
 height: 54px;
 }
 
@@ -1058,3 +1065,415 @@ height: 54px;
   padding: 20px;
   text-align: left;
 }
+
+.ccon
+{
+top:20px;
+padding: 12px 65px;
+display: grid;
+column-gap: 0px;
+grid-template-columns: auto auto auto;
+}
+
+.countrycon{
+position: relative;
+width: 100px;
+height: 48px;
+left: -150px;
+top: 30px;
+
+background: #F2F2F8;
+border-radius: 8px;
+
+}
+
+.countrycontext
+{
+	
+position: absolute;
+width: 60px;
+height: 24px;
+left: 20px;
+top: 12px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #25203F;
+}
+
+.pitemcon{
+position: relative;
+width: 1584px;
+height: 540px;
+left: 167px;
+top: 302px;
+}
+
+.pitemcontainer {
+  display: grid;
+  column-gap: 16px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  position: absolute;
+  top: 225px;
+  left: -197px;
+}
+
+.pitemconi1{
+	
+position: relative;
+width: 300px;
+height: 547px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+box-shadow: 0px 10px 24px rgba(37, 32, 63, 0.08);
+border-radius: 8px;
+}
+
+.pitemtext1{
+	
+position: absolute;
+width: 100%;
+height: 97px;
+left: 0px;
+top: 0px;
+
+background: #FFDA7C;
+}
+
+.leftt
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.pitemconi1text{
+position: absolute;
+width: 300px;
+height: 58px;
+background-color: #FFDA7C ;
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 29px;
+border-radius: 8px 8px 0px 0px;
+color: #25203F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+	
+}
+
+.pitemcol{
+float: left;
+width: 50%;
+}
+
+.pitemcoltext{
+margin-top: 20px;	
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+margin-left: 10px;
+}
+
+.pitemcoltextr{
+margin-top: 20px;
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+margin-right: 10px;
+text-align: right;
+}
+
+.ava{
+	font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: rgba(37, 32, 63, 0.65);
+margin-top: 20px;
+}
+
+.avar{
+	font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: rgba(37, 32, 63, 0.65);
+margin-top: 20px;
+text-align: right;
+}
+
+.pricel{
+margin-top: 10px;
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 32px;
+color: #2CCB58;
+}
+
+.pricer{
+margin-top: 10px;
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+align-items: center;
+text-align: right;
+text-decoration-line: line-through;
+
+color: #25203F;
+}
+
+.smol
+{
+	font-size: 13px;
+}
+
+.disc{
+position: absolute;
+width: 100%;
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+top: 300px;
+	
+}
+
+.comingsoon
+{
+left: 23%;
+align-items: center;
+position: absolute;
+width: 165px;
+height: 44px;
+top: 380px;
+}
+
+.csbtn{
+	
+padding: 10px 0px 10px 14px;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #25203F;
+border-radius: 4px;
+color: white;
+
+margin: 0px 0px;
+}
+
+.wbdicon1{
+position: absolute;
+width: 56px;
+height: 53px;
+left: 0px;
+margin-left: 0px;
+
+background-image: url("Assets/Frame 87.png");
+background-size: 100%;
+
+}
+
+.wbdicon2{
+position: absolute;
+width: 56px;
+height: 53px;
+left: 0px;
+margin-left: 0px;
+
+background-image: url("Assets/Trophy_perspective_matte.png");
+background-size: 100%;
+
+}
+
+.wbdicon3{
+position: absolute;
+width: 56px;
+height: 53px;
+left: 0px;
+margin-left: 0px;
+
+background-image: url("Assets/table-globe-4035948-3342373@0.png");
+background-size: 100%;
+
+}
+
+.wbdicon4{
+position: absolute;
+width: 56px;
+height: 60px;
+left: 0px;
+margin-left: 0px;
+
+background-image: url("Assets/pyramid-graph.png");
+background-size: 100%;
+
+}
+
+.wbdtitle2
+{
+position: relative;
+width: 250px;
+height: 29px;
+left: 75px;
+top: 0px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 29px;
+
+color: #25203F;
+}
+
+.wbdbody2
+{
+position: relative;
+width: 300px;
+height: 110px;
+left: 75px;
+top: 10px;
+margin-bottom: 30px;
+
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+/* or 137% */
+
+
+color: rgba(37, 32, 63, 0.65);
+}
+
+.hlogo{
+
+z-index: 1;
+position: absolute;
+width: 151px;
+height: 70px;
+left: 138px;
+top: 14px;
+
+background-image:url("Assets/hlo.png");
+background-size: 100%;
+}
+
+.btn-group button {
+top: 20px;
+position: relative;
+left: 400px;
+align-content: right;
+background-color: transparent;
+border: none;
+padding: 10px 24px; /* Some padding */
+cursor: pointer; /* Pointer/hand icon */
+float: left; /* Float the buttons side by side */
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #25203F;
+z-index: 1;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.hbutton{
+	
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 26px 13px;
+position: absolute;
+left: 1190px;
+right: 0%;
+top: 17px;
+height: 44px;
+bottom: 0%;
+background: #7272C0;
+border-radius: 4px;
+color: white;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.buttonh{
+	
+	/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 146px;
+height: 44px;
+left: 138px;
+margin-top: -20px;
+}
+
+.footer {
+position: absolute;
+color: white;
+background-color: #25203F;
+padding: 10px;
+text-align: center;
+height: 138;
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+}
+
