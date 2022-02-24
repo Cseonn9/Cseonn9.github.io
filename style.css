@@ -56,7 +56,7 @@ body{
 .section4 {
 	background-repeat:no-repeat;
 	background-size: cover;
-	background-image:url("../Beta/Assets/bgrp3.png");
+	background-image:url("bgrp3.png");
     position:relative;
 	top: 100%;
 	width: 100%;
