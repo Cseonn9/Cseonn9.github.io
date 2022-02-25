@@ -56,7 +56,7 @@ body{
 .section4 {
 	background-repeat:no-repeat;
 	background-size: cover;
-	background-image:url("../Beta/Assets/bgrp3.png");
+	background-image:url("bgs4.png");
     position:relative;
 	top: 100%;
 	width: 100%;
@@ -238,6 +238,11 @@ left: 138px;
 top: 480px;
 }
 
+
+
+
+
+
 .ourp{
 
 position: relative;
@@ -264,7 +269,7 @@ margin: 144px 0px;
 position: relative;
 width: 294px;
 height: 61px;
-left: 12%;
+left: 15%;
 right: 20%;
 top: 0px;
 
@@ -290,6 +295,8 @@ align-content: center;
 position: relative;
 width: 681px;
 height: 48px;
+left: 5%;
+right: 20%;
 top: 16px;
 
 font-family: Red Hat Display;
@@ -420,23 +427,23 @@ grid-template-columns: auto auto auto;
 align-items: flex-start;
 position: relative;
 width: 100vw;
-left: -14%;
-height: 120px;
+height: 264px;
+left:  -11%;
 right: 0px;
 top: 85px;
 }
 
-.iconcon2{
+.iconcon1{
 
 display: grid;
 grid-template-columns: auto auto auto;
 align-items: flex-start;
 position: relative;
 width: 100vw;
-left: -14%;
-height: 120px;
+height: 264px;
+left:  -76.5%;
 right: 0px;
-top: 85px;
+top: 134px;
 }
 
 .iconrow{
@@ -544,7 +551,7 @@ top: 244px;
 position: absolute;
 width: 282px;
 height: 61px;
-left: 230px;
+left: 300px;
 top: 0px;
 
 /* H1 */
@@ -586,7 +593,7 @@ font-size: 18px;
 line-height: 24px;
 /* identical to box height */
 top: 12px;
-left: -55px;
+left: 12px;
 color: #25203F
 }
 /* Column CSS */
@@ -795,7 +802,7 @@ color: rgba(63, 59, 86, 0.8);
 {
 position: absolute;
 width: 533px;
-height: 430px;
+height: 530px;
 left: 55%;
 top: 170px;
 
@@ -979,7 +986,7 @@ position: relative;
 width: 35px;
 height: 35px;
 left: 0px;
-margin-left: 40px;
+margin-left: 80px;
 
 background-image: url("Assets/Unlimited.png");
 background-size: 100%;
@@ -1062,7 +1069,7 @@ height: 54px;
 .ccon
 {
 top:20px;
-padding: 12px 0px;
+padding: 12px 65px;
 display: grid;
 column-gap: 0px;
 grid-template-columns: auto auto auto;
@@ -1118,7 +1125,7 @@ top: 302px;
   padding: 10px;
   position: absolute;
   top: 225px;
-  left: -14%;
+  left: -197px;
 }
 
 .pitemconi1{
@@ -1423,7 +1430,7 @@ flex-direction: row;
 align-items: flex-start;
 padding: 8px 26px 13px;
 position: absolute;
-left: 1065px;
+left: 1190px;
 right: 0%;
 top: 17px;
 height: 44px;
@@ -1469,331 +1476,4 @@ font-weight: 500;
 font-size: 18px;
 line-height: 26px;
 }
-
-/* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) 
-{
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (max-width: 800px)
-
-/* @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) */
-{
-	.ultraicon1
-	{
-		margin-left: 80px;
-	}
-	
-		.doscol
-	{
-		width: 100%;
-	}
-	
-	.section3
-	{
-		background-color: aqua;
-	}
-	
-	.ta
-	{
-		left: 10%;	
-	}
-	
-	.ta1{
-		left: 10%;
-		width: 80vw;
-	}
-	
-	.button1
-	{
-		left: 10%;
-	}
-	
-	.hlogo
-	{
-		left: 10%;	
-	}
-	.btn-group
-	{
-		display: none;
-	}
-	.grid-container
-	{
-		grid-template-columns: auto auto;
-		left: -35%;
-		top: 105%;
-		width: 60vw;
-	}
-	
-	.con1
-	{
-		top: 70%;
-		height: 80px;
-		background-color: transparent;
-		border-bottom-style: none;
-		box-shadow: none;
-		border-radius: 0px;
-		
-	}
-	.t1
-	{
-		top: 10%;
-		font-size: 35px;
-		left: 0px;
-	}
-	.ta1{width: 80vw}
-	
-	.ultraicon1{
-		mergin-left: 5%;
-	}
-	
-	.ourp
-	{
-		top: 80%;
-		text-align: left;
-		width: 80vh;
-		left: 0%;
-	}
-	
-	.ourptitle
-	{
-		text-align: left;
-		left: 0px;
-	}
-	
-	.ourpbody
-	{
-		text-align: left;
-		left: 0px;
-		width: 80vw;
-	}
-	.iconrow
-	{
-		flex-direction:column;
-	}
-	
-	.iconcon
-	{
-		width: 80vw;
-		margin-bottom: 30px;
-	}
-	
-	.iconitem
-	{
-		width: 60vw;
-		height: 50px;
-		left: 5%;
-		border-radius: 0px;
-		border: none;
-	}
-	.ourpicon1
-	{
-		top: 0px;
-		width: 43px;
-		height: 43px;
-	}
-	.ourpicon2
-	{
-		top: 0px;
-		width: 43px;
-		height: 43px;
-	}
-	.ourpicon3
-	{
-		top: 0px;
-		width: 43px;
-		height: 43px;
-	}
-	.ourpicon4
-	{
-		top: 0px;
-		width: 43px;
-		height: 43px;
-	}
-	.ourpicon5
-	{	
-		top: 0px;
-		width: 43px;
-		height: 43px;
-	}
-	.ourpicon6
-	{
-		top: 0px;
-		width: 43px;
-		height: 43px;
-	}
-	.icontext{
-		height: 50px;
-		left: 30px;
-		font-size: 18px;
-		width: 80vw;
-	}
-	
-	.iconcon{
-		grid-template-columns: column;
-	}
-		.iconcon2{
-		grid-template-columns: column;
-	}
-	
-	.ournetwork
-	{
-		width: 80vw;
-		top: 160px;
-	}
-	
-	.ourntitle
-	{
-		left: 0px;
-	}
-	.nboxcon
-	{
-		left: 0px;
-	}
-	.ourncountrycon
-	{
-		left: 0px;
-	}
-	.ourncountrytext
-	{
-		left: 0px;
-	}
-	.ccon
-	{
-		left: 0px;
-		margin-left: 0px;
-	}
-	.countrycon
-	{
-		left: 0px;
-	}
-	
-	
-	.ourlocation
-	{
-		width: 80vw;
-		margin-left: 0%;
-		left: 10%;
-		position: absolute;
-	}
-	.ourlobody
-	{
-		text-align: left;
-		width: 80vw;
-		left: 10%;
-	}
-	.contactcon
-	{
-		width: 80vw;
-		left: 10%;
-		height: 425px;
-	}
-	
-	.section3
-	{
-		background-image: url("../Beta/Assets/bg3m.png")
-	}
-	.wbd
-	{
-		width: 80vw;
-		margin-left: 0px;
-		left: 10%;
-		top: 0px;
-		font-size: 30px;
-	}
-	
-	.doscol 
-	{
-  		float: left;
-  		width: 80vw;
-  		padding: 10px;
-  		height: 85%;
-	}
-	
-	.wbdicon1
-	{
-		left: 0%;
-		margin-left: 0px;
-	}
-	.wbdtitle
-	{
-		left: -50px;
-	}
-	.wbdbody
-	{
-		left: 0px;
-		height: 100px;
-		width: 100%;
-	}
-	.wbdbody2
-	{
-		height: 100px;
-		width: 100%;
-	}
-	.wbdtextcon1
-	{
-		left: -13%;
-		margin-left: 0px;
-		top: 10px;
-		width: 80vw;
-	}
-	.wbdtextcon2
-	{
-		left: 0%;
-		margin-left: 0px;
-		top: 100%;
-		width: 80vw;
-	}
-	
-	.pitemcontainer
-	{
-		width: 90vw;
-		grid-template-columns: auto auto;
-		left: -5%;
-		height: 547px;
-		background-attachment: scroll;
-	}
-	.pitemconi1
-	{
-		height: 40vh;
-		width: 40vw;
-		margin-bottom: 50px;
-	}
-	.nboxcon
-	{
-		height: 200vh;
-	}
-	.comingsoon
-	{
-		display: none;
-	}
-	.pitemcol
-	{
-		width: 20vw;
-	}
-	.pitemconi1text
-	{
-		width: 40vw;
-	}
-	.disc
-	{
-		padding-top: 5px;
-	}
-	
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
-
 
