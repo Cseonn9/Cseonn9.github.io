@@ -1519,6 +1519,7 @@ line-height: 26px;
 	{
 		left: 0%;
 		top: 17%;
+		width: 70vw;
 	}
 	
 	.ta1{
@@ -1830,6 +1831,7 @@ line-height: 26px;
 	
 	.pitemcontainer
 	{
+		padding: 0px;
 		width: 100%;
 		left: 0px;
 		grid-template-columns: auto;
