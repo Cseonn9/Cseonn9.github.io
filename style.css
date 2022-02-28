@@ -1882,7 +1882,7 @@ line-height: 26px;
 	
 	.section4
 	{
-		background-image: url("bgs4.png")
+		background-image: url("bgs4.png");
 	}
 	.ultratext
 	{
@@ -1907,18 +1907,27 @@ line-height: 26px;
 	.section
 	{
 		max-width: 100%;
+		background-size: 100vw;
 	}
 	.section1
 	{
 		max-width: 100%;
+		background-size: 100vw;
 	}
 	.section2
 	{
 		max-width: 100%;
+		background-size: 100vw;
 	}
 	.section4
 	{
 		max-width: 100%;
+		background-size: 100vw;
+	}
+		.section3
+	{
+		max-width: 100%;
+		background-size: 100vw;
 	}
 	.continitial
 	{
