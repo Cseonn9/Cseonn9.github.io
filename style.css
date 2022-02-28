@@ -1470,6 +1470,7 @@ line-height: 26px;
 		margin: 0;
 		padding: 0;
 		width: 100%;
+		height: 100%;
 		overflow-x: hidden;
 	}
 	.ultraicon1
@@ -1545,7 +1546,7 @@ line-height: 26px;
 		grid-template-columns: auto auto;
 		left: -35%;
 		top: 105%;
-		width: 60vw;
+		width: 60%;
 	}
 	
 	.con1
@@ -1588,7 +1589,7 @@ line-height: 26px;
 	{
 		text-align: left;
 		left: 0px;
-		width: 80vw;
+		width: 80%;
 		font-size: 14.5px;
 	}
 	.iconrow
@@ -1598,7 +1599,7 @@ line-height: 26px;
 	
 	.iconitem
 	{
-		width: 60vw;
+		width: 60%;
 		height: 50px;
 		left: 5%;
 		border-radius: 0px;
@@ -1644,12 +1645,12 @@ line-height: 26px;
 		height: 50px;
 		left: 30px;
 		font-size: 15px;
-		width: 80vw;
+		width: 80%;
 	}
 	
 	.iconcon{
 		grid-template-columns: column;
-		width: 80vw;
+		width: 80%;
 		margin-bottom: 30px;
 		left: -19%;
 		top: 13%;
@@ -1662,7 +1663,7 @@ line-height: 26px;
 	
 	.ournetwork
 	{
-		width: 80vw;
+		width: 80%;
 		top: 160px;
 	}
 	
@@ -1679,24 +1680,24 @@ line-height: 26px;
 	.ourncountrycon
 	{
 		left: 0px;
-		width: 80vw;
+		width: 80%;
 	}
 	.ourncountrytext
 	{
 		left: 0px;
-		width: 80vw;
+		width: 80%;
 	}
 	.ccon
 	{
 		left: 0px;
 		margin-left: 0px;
-		width: 80vw;
+		width: 80%;
 		padding: 0;
 	}
 	.countrycon
 	{
 		left: 0px;
-		width: 20vw;
+		width: 20%;
 		height: 5vh;
 	}
 	
@@ -1704,7 +1705,7 @@ line-height: 26px;
 	.ourlocation
 	{
 		top: -5%;
-		width: 80vw;
+		width: 80%;
 		margin-left: 0%;
 		left: 10%;
 		position: absolute;
@@ -1715,7 +1716,7 @@ line-height: 26px;
 		font-size: 15px;
 		top: 10px;
 		text-align: left;
-		width: 80vw;
+		width: 80%;
 		left: 10%;
 	}
 	.contactcon
@@ -1729,7 +1730,7 @@ line-height: 26px;
 	
 	.wbd
 	{
-		width: 80vw;
+		width: 80%;
 		margin-left: 0px;
 		left: 10%;
 		top: 0px;
@@ -1739,7 +1740,7 @@ line-height: 26px;
 	.doscol 
 	{
   		float: left;
-  		width: 80vw;
+  		width: 80%;
   		padding: 10px;
   		height: 85%;
 	}
@@ -1807,13 +1808,13 @@ line-height: 26px;
 		top: 5%;
 		left: -11%;
 		margin-left: 0px;
-		width: 80vw;
+		width: 80%;
 	}
 	.wbdtextcon2
 	{
 		margin-left: 0px;
 		top: 90%;
-		width: 80vw;
+		width: 80%;
 	}
 	
 	.pitemcontainer
@@ -1853,7 +1854,7 @@ line-height: 26px;
 	{
 		left: 10%;
 		height: 50vh;
-		width: 80vw;
+		width: 80%;
 		margin-bottom: 50px;
 		border-radius: 0px;
 	}
@@ -1869,11 +1870,11 @@ line-height: 26px;
 	}
 	.pitemcol
 	{
-		width: 80vw;
+		width: 80%;
 	}
 	.pitemconi1text
 	{
-		width: 80vw;
+		width: 80%;
 	}
 	.disc
 	{
@@ -1886,7 +1887,7 @@ line-height: 26px;
 	}
 	.ultratext
 	{
-		width: 25vw;
+		width: 25%;
     	font-size: 11.5px;
     	height: 10vh;
 	}
@@ -1898,7 +1899,7 @@ line-height: 26px;
 		padding-top: 10px;
 		font-size: 13px;
 		text-align: center;
-		width: 20vw;
+		width: 20%;
 	}
 	.leftt{
 		font-size: 18px;
