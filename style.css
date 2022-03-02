@@ -91,7 +91,7 @@ border-radius: 12px;
 /* Our Products */
 
 position: static;
-width: 1920px;
+width: 80vw;
 height: 449px;
 left: 0px;
 top: 0px;
@@ -129,7 +129,7 @@ text-align: left;
 
 
 position: absolute;
-width: 100vw;
+width: 41vw;
 height: 74px;
 margin-left: 8.95%;
 top: 294px;
@@ -149,7 +149,7 @@ color: #25203F;
 
 .t1 {
 position: absolute;
-width: 311px;
+width: 20.198vw;
 height: 61px;
 left: 5%;
 top:39px;
@@ -170,7 +170,7 @@ color: #25203F;
 
 
 position: absolute;
-width: 500px;
+width: 41vw;
 height: 48px;
 margin-left: 8.95%;
 top: 384px;
@@ -219,7 +219,7 @@ align-items: flex-start;
 padding: 0px;
 
 position: absolute;
-width: 175px;
+width: 13vw;
 height: 44px;
 margin-left: 8.95%;
 top: 480px;
@@ -228,9 +228,8 @@ top: 480px;
 .ourp{
 
 position: relative;
-width: 1920px;
+width: 80vw;
 height: 449px;
-left: 55%;
 top: 0px;
 
 
@@ -245,13 +244,10 @@ margin: 144px 0px;
 .ourptitle{
 	
 	/* Our Products */
-
-
-position: relative;
-width: 294px;
+	
+margin: 0px;
 height: 61px;
-left: 12%;
-right: 20%;
+margin-left: 32%;
 top: 0px;
 
 /* H1 */
@@ -274,7 +270,8 @@ color: #25203F;
 
 align-content: center;
 position: relative;
-width: 681px;
+margin-left: 16%;
+width: 45vw;
 height: 48px;
 top: 16px;
 
@@ -405,8 +402,8 @@ display: grid;
 grid-template-columns: auto auto auto;
 align-items: flex-start;
 position: relative;
-width: 100vw;
-left: -14%;
+width: 60vw;
+left: -4%;
 height: 120px;
 right: 0px;
 top: 85px;
@@ -418,8 +415,8 @@ display: grid;
 grid-template-columns: auto auto auto;
 align-items: flex-start;
 position: relative;
-width: 100vw;
-left: -14%;
+width: 60vw;
+left: -4%;
 height: 120px;
 right: 0px;
 margin-top: 1%;
@@ -434,7 +431,7 @@ align-items: flex-start;
 padding: 0px;
 
 position: static;
-width: 1266px;
+width: 69.93vw;
 height: 120px;
 left: 0px;
 top: 0px;
@@ -451,7 +448,7 @@ margin: 24px 0px;
 .iconitem
 {
 position: relative;
-width: 406px;
+width: 25.146vw;
 height: 120px;
 left: 0px;
 background: #FFFFFF;
@@ -469,8 +466,8 @@ margin: 0px 10px;
 .iconn{
 	
 position: static;
-width: 86px;
-height: 86px;
+width: 8.479vw;
+height: 8.479vw;
 left: 0px;
 top: 0px;
 
@@ -489,7 +486,7 @@ margin: 0px 36px;
 .icontext
 {
 position: relative;
-width: 186px;
+width: 13.668vw;
 height: 86px;
 left:85%;
 top: 0px;
@@ -519,7 +516,7 @@ margin: 0px 24px;
 .ournetwork
 {
 position: relative;
-width: 1920px;
+width: 80vw;
 height: 849px;
 left: 0px;
 top: 244px;
@@ -529,9 +526,8 @@ top: 244px;
 {
 	
 position: absolute;
-width: 282px;
 height: 61px;
-left: 12.5%;
+left: 33%;
 top: 0px;
 
 /* H1 */
@@ -549,9 +545,9 @@ color: #25203F;
 
 .nboxcon{
 position: absolute;
-width: 1584px;
+width: 60.500vw;
 height: 721px;
-margin-left: 7.5%;
+margin-left: 0px;
 top: 85px;
 
 }
@@ -559,11 +555,11 @@ top: 85px;
 .ourncountrycon
 {
 position: absolute;
-width: 500px;
 height: 33px;
-left: 11.5%;
+left: 54%;
 top: 0px;
 }
+
 .ourncountrytext{
 position: relative;
 font-family: Red Hat Display;
@@ -572,8 +568,7 @@ font-weight: bold;
 font-size: 18px;
 line-height: 24px;
 /* identical to box height */
-top: 12px;
-left: 0px;
+left: 25,5vw;
 color: #25203F
 }
 /* Column CSS */
@@ -633,7 +628,6 @@ color: #25203F
 
 
 position: relative;
-width: 570px;
 height: 61px;
 top: 220px;
 font-family: Red Hat Display;
@@ -660,7 +654,7 @@ flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 position: relative;
-width: 440px;
+width: 50vw;
 height: 358px;
 top: 64px;
 }
@@ -671,7 +665,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 position: absolute;
-width: 440px;
+width: 50vw;
 height: 358px;
 margin-left: 400px;
 }
@@ -680,7 +674,7 @@ margin-left: 400px;
 
 
 position: static;
-width: 384px;
+width: 24vw;
 height: 155px;
 left: 96px;
 top: 0px;
@@ -697,9 +691,8 @@ margin: 0px 16px;
 .wbdtitle
 {
 position: relative;
-width: 300px;
 height: 29px;
-left: 50%;
+left: 40%;
 top: 0px;
 
 font-family: Red Hat Display;
@@ -714,9 +707,8 @@ color: #25203F;
 .wbdbody
 {
 position: relative;
-width: 300px;
 height: 110px;
-left: 50%;
+left: 40%;
 top: 10px;
 margin-bottom: 30px;
 
@@ -733,7 +725,6 @@ color: rgba(37, 32, 63, 0.65);
 
 .ourlocation{
 position: relative;
-width: 308px;
 height: 61px;
 top: -7px;
 margin-left: 40%;
@@ -760,7 +751,7 @@ color: #25203F;
 
 
 position: absolute;
-width: 681px;
+width: 39.469vw;
 height: 48px;
 left: 25.7%;
 top: 79px;
@@ -781,9 +772,9 @@ color: rgba(63, 59, 86, 0.8);
 .contactcon
 {
 position: absolute;
-width: 533px;
+width: 31.760vw;
 height: 430px;
-margin-left: 60%;
+margin-left: 65%;
 top: 170px;
 
 background: linear-gradient(101.08deg, rgba(219, 233, 253, 0.8) 0.87%, rgba(203, 199, 255, 0.8) 47.85%, rgba(228, 202, 255, 0.8) 100%);
@@ -896,7 +887,7 @@ margin: 0px;
 .contnext{
 	
 position: relative;
-width: 202px;
+width: 14.521vw;
 height: 24px;
 margin-top: 40px;
 font-family: Red Hat Display;
@@ -921,7 +912,7 @@ margin: 0px 16px;
 .contnext1{
 	
 position: inherit;
-width: 202px;
+width: 14.521vw;
 height: 24px;
 top: 0px;
 
@@ -955,7 +946,7 @@ flex-grow: 0;
   grid-template-columns: auto auto auto auto;
 
 position: relative;
-width: 975px;
+width: 54.729vw;
 height: 54px;
 left: 0px;
 }
@@ -1049,7 +1040,6 @@ height: 54px;
 .ccon
 {
 top:20px;
-padding: 12px 0px;
 display: grid;
 column-gap: 0px;
 grid-template-columns: auto auto auto;
@@ -1057,9 +1047,9 @@ grid-template-columns: auto auto auto;
 
 .countrycon{
 position: relative;
-width: 130px;
+width: 10.771vw;
 height: 48px;
-left: -124%;
+left: -14.5vw;
 top: 30px;
 margin-right: 30px;
 background: #F2F2F8;
@@ -1073,7 +1063,7 @@ align-content: center;
 position: absolute;
 width: 100px;
 height: 24px;
-left: 30%;
+left: 15%;
 top: 13px;
 
 font-family: Red Hat Display;
@@ -1092,7 +1082,7 @@ color: #25203F;
 
 .pitemcon{
 position: relative;
-width: 1584px;
+width: 86.500vw;
 height: 540px;
 left: 0px;
 top: 302px;
@@ -1105,13 +1095,13 @@ top: 302px;
   padding: 10px;
   position: absolute;
   top: 225px;
-  left: -14%;
+  left: -11.3%;
 }
 
 .pitemconi1{
 	
 position: relative;
-width: 300px;
+width: 21.625vw;
 height: 547px;
 left: 0px;
 top: 0px;
@@ -1139,7 +1129,7 @@ background: #FFDA7C;
 
 .pitemconi1text{
 position: absolute;
-width: 300px;
+width: 21.625vw;
 height: 58px;
 background-color: #FFDA7C ;
 font-family: Red Hat Display;
@@ -1192,7 +1182,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 color: rgba(37, 32, 63, 0.65);
-margin-top: 20px;
+margin-top: 40px;
 }
 
 .avar{
@@ -1243,7 +1233,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 19px;
 text-align: center;
-top: 300px;
+top: 330px;
 	
 }
 
@@ -1252,7 +1242,7 @@ top: 300px;
 left: 23%;
 align-items: center;
 position: absolute;
-width: 165px;
+width: 12.125vw;
 height: 44px;
 top: 380px;
 }
@@ -1324,9 +1314,9 @@ background-size: 100%;
 .wbdtitle2
 {
 position: relative;
-width: 250px;
+width: 17.021vw;
 height: 29px;
-left: 50%;
+left: 40%;
 top: 0px;
 
 font-family: Red Hat Display;
@@ -1341,9 +1331,9 @@ color: #25203F;
 .wbdbody2
 {
 position: relative;
-width: 300px;
+width: 19.625;
 height: 110px;
-left: 50%;
+left: 40%;
 top: 10px;
 margin-bottom: 30px;
 
@@ -1372,9 +1362,9 @@ background-size: 101%;
 }
 
 .btn-group button {
+left: 30vw;
 top: 20px;
 position: relative;
-left: 30%;
 align-content: right;
 background-color: transparent;
 border: none;
