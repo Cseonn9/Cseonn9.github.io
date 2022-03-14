@@ -92,7 +92,7 @@ border-radius: 12px;
 
 position: static;
 width: 80vw;
-height: 449px;
+height: 60vh;
 left: 0px;
 top: 0px;
 	
@@ -130,7 +130,6 @@ text-align: left;
 
 position: absolute;
 width: 41vw;
-height: 74px;
 margin-left: 8.95%;
 top: 294px;
 
@@ -150,7 +149,6 @@ color: #25203F;
 .t1 {
 position: absolute;
 width: 20.198vw;
-height: 61px;
 left: 5%;
 top:39px;
 
@@ -229,7 +227,7 @@ top: 480px;
 
 position: relative;
 width: 80vw;
-height: 449px;
+height: 60vh;
 top: 0px;
 
 
@@ -404,7 +402,7 @@ align-items: flex-start;
 position: relative;
 width: 60vw;
 left: -4%;
-height: 120px;
+height: 16vh;
 right: 0px;
 top: 85px;
 }
@@ -417,7 +415,7 @@ align-items: flex-start;
 position: relative;
 width: 60vw;
 left: -4%;
-height: 120px;
+height: 16vh;
 right: 0px;
 margin-top: 1%;
 top: 85px;
@@ -432,7 +430,7 @@ padding: 0px;
 
 position: static;
 width: 69.93vw;
-height: 120px;
+height: 16vh;
 left: 0px;
 top: 0px;
 
@@ -449,7 +447,7 @@ margin: 24px 0px;
 {
 position: relative;
 width: 25.146vw;
-height: 120px;
+height: 16vh;
 left: 0px;
 background: #FFFFFF;
 border: 4px solid rgba(114, 114, 192, 0.12);
@@ -517,7 +515,7 @@ margin: 0px 24px;
 {
 position: relative;
 width: 80vw;
-height: 849px;
+height: 112.6vh;
 left: 0px;
 top: 244px;
 }
@@ -546,7 +544,7 @@ color: #25203F;
 .nboxcon{
 position: absolute;
 width: 60.500vw;
-height: 721px;
+height: 95.6vh;
 margin-left: 0px;
 top: 85px;
 
@@ -576,7 +574,11 @@ color: #25203F
 * {
   box-sizing: border-box;
 }
-
+.roww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* Create two equal columns that floats next to each other */
 
 .quadcol{
@@ -599,6 +601,11 @@ color: #25203F
 }
 		
 .doscol {
+  float: left;
+  width: 50%;
+}
+
+.doscoll {
   float: left;
   width: 50%;
 }
@@ -628,7 +635,6 @@ color: #25203F
 
 
 position: relative;
-height: 61px;
 top: 220px;
 font-family: Red Hat Display;
 font-style: normal;
@@ -655,7 +661,7 @@ align-items: flex-start;
 padding: 0px;
 position: relative;
 width: 50vw;
-height: 358px;
+height: 47.5vh;
 top: 64px;
 }
 
@@ -666,7 +672,7 @@ flex-direction: column;
 align-items: flex-start;
 position: absolute;
 width: 50vw;
-height: 358px;
+height: 47.5vh;
 margin-left: 400px;
 }
 .wbdtext{
@@ -726,7 +732,7 @@ color: rgba(37, 32, 63, 0.65);
 .ourlocation{
 position: relative;
 height: 61px;
-top: -7px;
+top: -18vh;
 margin-left: 40%;
 /* H1 */
 
@@ -753,8 +759,8 @@ color: #25203F;
 position: absolute;
 width: 39.469vw;
 height: 48px;
-left: 25.7%;
-top: 79px;
+left: 30%;
+top: -10vh;
 
 /* Subheader */
 
@@ -773,9 +779,8 @@ color: rgba(63, 59, 86, 0.8);
 {
 position: absolute;
 width: 31.760vw;
-height: 430px;
+height: 57.1vh;
 margin-left: 65%;
-top: 170px;
 
 background: linear-gradient(101.08deg, rgba(219, 233, 253, 0.8) 0.87%, rgba(203, 199, 255, 0.8) 47.85%, rgba(228, 202, 255, 0.8) 100%);
 box-shadow: 0px 16px 24px rgba(37, 32, 63, 0.08);
@@ -1162,7 +1167,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 24px;
-margin-left: 10px;
+margin-left: 20px;
 }
 
 .pitemcoltextr{
@@ -1172,7 +1177,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 24px;
-margin-right: 10px;
+margin-right: 20px;
 text-align: right;
 }
 
@@ -1191,7 +1196,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 color: rgba(37, 32, 63, 0.65);
-margin-top: 20px;
+margin-top: 40px;
 text-align: right;
 }
 
@@ -1435,10 +1440,21 @@ font-size: 18px;
 line-height: 26px;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (max-width: 480px)
-	
+@media only screen 
+  and (min-device-width: 320px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) 
+
 {
+	.disc
+	{
+		display: none;
+	}
+	.doscoll 
+	{
+  		width: 100%;
+	}
+	
 	html,body{
 		margin: 0;
 		padding: 0;
@@ -1483,9 +1499,523 @@ line-height: 26px;
 		height: 25px;
 	}
 	
-		.doscol
+	
+	.ta
+	{
+		left: 0%;
+		top: 17%;
+		width: 70vw;
+	}
+	
+	.ta1{
+		left: 0%;
+		width: 80vw;
+		top: 40%;
+	}
+	
+	.button1
+	{
+		left: 0%;
+		top: 58%;
+		width: 46vw;
+	}
+	
+	.hlogo
+	{
+		left: 10%;	
+	}
+	.btn-group
+	{
+		display: none;
+		width: 0px;
+	}
+	.grid-container
+	{
+		grid-template-columns: auto auto;
+		left: -35%;
+		top: 7vh;
+		width: 60vw;
+	}
+	
+	.con1
+	{
+		top: 70%;
+		height: 80px;
+		background-color: transparent;
+		border-bottom-style: none;
+		box-shadow: none;
+		border-radius: 0px;
+		
+	}
+	.t1
+	{
+		top: -15%;
+		font-size: 35px;
+		left: 0px;
+		width: auto;
+	}
+	
+	.ultraicon1{
+		mergin-left: 5%;
+	}
+	
+	.ourp
+	{
+		margin-top: 28vh;
+		text-align: left;
+		width: 80%;
+		left: 0%;
+	}
+	
+	.ourptitle
+	{
+		text-align: left;
+		left: 0px;
+		font-size: 35px;
+		width: 80vw;
+		right: 0px;
+		margin: 0px;
+		top: 15px;
+	}
+	
+	.ourpbody
+	{
+		margin-left: 0px;
+		text-align: left;
+		left: 0px;
+		width: 80vw;
+		font-size: 14.5px;
+	}
+	.iconrow
+	{
+		flex-direction:column;
+		width: 80vw;
+	}
+	
+	.iconitem
+	{
+		width: 60vw;
+		height: 50px;
+		left: 0px;
+		margin-left: 0px;
+		border-radius: 0px;
+		border: none;
+	}
+	.ourpicon1
+	{
+		top: 0px;
+		width: 43px;
+		height: 43px;
+		margin: 0px;
+	}
+	.ourpicon2
+	{
+		top: 0px;
+		width: 43px;
+		height: 43px;
+		margin: 0px;
+	}
+	.ourpicon3
+	{
+		top: 0px;
+		width: 43px;
+		height: 43px;
+		margin: 0px;
+	}
+	.ourpicon4
+	{
+		top: 0px;
+		width: 43px;
+		height: 43px;
+		margin: 0px;
+	}
+	.ourpicon5
+	{	
+		top: 0px;
+		width: 43px;
+		height: 43px;
+		margin: 0px;
+	}
+	.ourpicon6
+	{
+		top: 0px;
+		width: 43px;
+		height: 43px;
+		margin: 0px;
+	}
+	.icontext{
+		height: 50px;
+		left: 30px;
+		font-size: 15px;
+		width: 60vw;
+	}
+	
+	.iconcon{
+		position: relative;
+		grid-template-columns: column;
+		width: 60vw;
+		margin-bottom: 30px;
+		left: 0%;
+		top: 13%;
+	}
+		.iconcon2{
+		margin-left: 0px;
+		position: relative;
+		grid-template-columns: column;
+		left: 0%;
+		top: 15%;
+		width: 60vw;
+	}
+	
+	.ournetwork
+	{
+		width: 80vw;
+		top: 160px;
+	}
+	
+	.ourntitle
+	{
+		left: 0px;
+		font-size: 35px;
+		
+	}
+	.ourncountrycon
+	{
+		left: 0px;
+		width: 80vw;
+	}
+	.ourncountrytext
+	{
+		top: 10px;
+		left: 0px;
+		width: 80vw;
+	}
+	.ccon
+	{
+		left: 0px;
+		margin-left: 0px;
+		width: 80vw;
+		padding: 0;
+	}
+	.countrycon
+	{
+		left: 0px;
+		width: 20vw;
+		height: 5vh;
+	}
+	
+	
+	.ourlocation
+	{
+		top: -40vh;
+		width: 80vw;
+		margin-left: 0%;
+		left: 10%;
+		position: absolute;
+		font-size: 26px;
+	}
+	.ourlobody
+	{
+		font-size: 15px;
+		top: -30vh;
+		text-align: left;
+		width: 80vw;
+		left: 10%;
+	}
+	.contactcon
+	{
+		left: 5%;
+		top: -15vh;
+		width: 90%;
+		margin-left: 0%;
+		height: 425px;
+		
+	}
+	
+	.wbd
+	{
+		left: 10%;
+		width: 80vw;
+		margin-left: 0px;
+		top: 0px;
+		font-size: 30px;
+	}
+	
+	
+	.wbdicon1
+	{
+		height: 46px;
+		width: 43px;
+		left: 0%;
+		margin-left: 0px;
+		background-size: 110%;
+	}
+	.wbdicon2
+	{
+		height: 46px;
+		width: 43px;
+		left: 0%;
+		margin-left: 0px;
+		background-size: 110%;
+	}
+	.wbdicon3
+	{
+		height: 46px;
+		width: 43px;
+		left: 0%;
+		margin-left: 0px;
+		background-size: 110%;
+	}
+	.wbdicon4
+	{
+		height: 46px;
+		width: 43px;
+		left: 0%;
+		margin-left: 0px;
+		background-size: 100%;
+	}
+	.wbdtitle
+	{
+		left: 15%;
+		font-size: 16px;
+	}
+	.wbdtitle2
+	{
+		left: 15%;
+		font-size: 16px;
+		width: auto;
+	}
+	.wbdbody
+	{
+		margin-bottom: 10px;
+		top: 0px;
+		left: 15%;
+		height: 100px;
+		width: 100%;
+		font-size: 12px;
+	}
+	.wbdbody2
+	{
+		margin-bottom: 10px;
+		top: 0px;
+		left: 15%;
+		height: 100px;
+		width: 100%;
+		font-size: 12px;
+	}
+	.wbdtextcon1
+	{ 
+		top: 5%;
+		left: -11%;
+		margin-left: 0px;
+		width: 80vw;
+	}
+	.wbdtextcon2
+	{
+		margin-left: 0px;
+		top: 90%;
+		width: 80vw;
+	}
+	
+	.pitemcontainer
+	{
+		padding: 0px;
+		width: 100%;
+		left: 0px;
+		grid-template-columns: auto;
+		height: 547px;
+		background-attachment: scroll;
+		top: 19%;
+	}
+	
+	.pitemconi1text
+	{
+		font-size: 12px;
+		width: 100%;
+		border-radius: 0px;
+	}
+	.pitemcoltext
+	{
+		font-size: 14px;	
+	}
+	.pitemcoltextr
+	{
+		font-size: 14px;
+	}
+	.ava
+	{
+		font-size: 13px;
+	}
+	.avar
+	{
+		font-size: 13px;
+	}
+	.pitemconi1
+	{
+		left: 0px;
+		height: 50vh;
+		width: 80vw;
+		margin-bottom: 50px;
+		border-radius: 0px;
+	}
+	.nboxcon
+	{
+		height: 200vh;
+		top: 6.5%;
+		width: 50vw;
+	}
+	.comingsoon
+	{
+		display: none;
+	}
+	.pitemcol
+	{
+		width: 80vw;
+	}
+	.pitemconi1text
+	{
+		width: 80vw;
+	}
+	.disc
+	{
+		padding-top: 10px;
+	}
+	
+	.section4
+	{
+		background-image: url("bgs4.png");
+	}
+	.ultratext
+	{
+		width: 30vw;
+    	font-size: 11.5px;
+    	height: 10vh;
+		left: 35px;
+	}
+	.countrycontext
+	{
+		top: 0px;
+		left: 0px;
+		padding-left: 10px;
+		padding-top: 10px;
+		font-size: 13px;
+		text-align: center;
+		width: 20vw;
+	}
+	.leftt{
+		font-size: 22px;
+	}
+	
+	.section
+	{
+		max-width: 100%;
+	}
+	.section1
+	{
+		max-width: 100%;
+	}
+	.section2
+	{
+		max-width: 100%;
+	}
+	.section4
+	{
+		max-width: 100%;
+	}
+		.section3
+	{
+		max-width: 100%;
+	}
+	.continitial
+	{
+		font-size: 16px;
+	}
+	
+	.contnext
+	{
+		font-size: 16px;
+	}
+	.contnext1
+	{
+		font-size: 16px;
+	}
+	.hlogo
+	{
+		 background-size: 101%;
+	}
+		.section3
+	{
+		background-image: url("bg3m.png");
+		top: 425vh;
+		max-width: 100%;
+	}
+	.con2
 	{
 		width: 100%;
+	}
+	
+	.conttext
+	{
+		width: 90%;
+		left: 7.9%
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media screen and (min-width: 410px)
+	and (max-device-width: 480px)
+	and (orientation: portrait)
+	
+{
+	
+	.doscoll 
+	{
+  		width: 100%;
+	}
+	
+	html,body{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		overflow-x: hidden;
+	}
+	.ultraicon1
+	{
+		margin-left: 80px;
+		width: 25px;
+		height: 25px;
+	}
+		.ultraicon2
+	{
+		margin-left: 60px;
+		width: 25px;
+		height: 25px;
+	}
+		.ultraicon3
+	{
+		margin-left: 80px;
+		width: 25px;
+		height: 25px;
+	}
+		.ultraicon4
+	{
+		margin-left: 60px;
+		width: 25px;
+		height: 25px;
+	}
+		.ultraicon5
+	{
+		margin-left: 80px;
+		width: 25px;
+		height: 25px;
+	}
+		.ultraicon6
+	{
+		margin-left: 80px;
+		width: 25px;
+		height: 25px;
 	}
 	
 	.ta
@@ -1505,6 +2035,7 @@ line-height: 26px;
 	{
 		left: 0%;
 		top: 58%;
+		width: 46vw;
 	}
 	
 	.hlogo
@@ -1520,7 +2051,7 @@ line-height: 26px;
 	{
 		grid-template-columns: auto auto;
 		left: -35%;
-		top: 105%;
+		top: 7vh;
 		width: 60vw;
 	}
 	
@@ -1539,6 +2070,7 @@ line-height: 26px;
 		top: -15%;
 		font-size: 35px;
 		left: 0px;
+		width: auto;
 	}
 	
 	.ultraicon1{
@@ -1547,7 +2079,7 @@ line-height: 26px;
 	
 	.ourp
 	{
-		top: 80%;
+		margin-top: 28vh;
 		text-align: left;
 		width: 80%;
 		left: 0%;
@@ -1566,6 +2098,7 @@ line-height: 26px;
 	
 	.ourpbody
 	{
+		margin-left: 0px;
 		text-align: left;
 		left: 0px;
 		width: 80vw;
@@ -1691,7 +2224,7 @@ line-height: 26px;
 	
 	.ourlocation
 	{
-		top: -5%;
+		top: -40vh;
 		width: 80vw;
 		margin-left: 0%;
 		left: 10%;
@@ -1701,7 +2234,7 @@ line-height: 26px;
 	.ourlobody
 	{
 		font-size: 15px;
-		top: 10px;
+		top: -30vh;
 		text-align: left;
 		width: 80vw;
 		left: 10%;
@@ -1709,7 +2242,7 @@ line-height: 26px;
 	.contactcon
 	{
 		left: 5%;
-		top: 20%;
+		top: -15vh;
 		width: 90%;
 		margin-left: 0%;
 		height: 425px;
@@ -1725,13 +2258,6 @@ line-height: 26px;
 		font-size: 30px;
 	}
 	
-	.doscol 
-	{
-  		float: left;
-  		width: 80vw;
-  		padding: 10px;
-  		height: 85%;
-	}
 	
 	.wbdicon1
 	{
@@ -1774,6 +2300,7 @@ line-height: 26px;
 	{
 		left: 15%;
 		font-size: 16px;
+		width: auto;
 	}
 	.wbdbody
 	{
@@ -1829,7 +2356,6 @@ line-height: 26px;
 	.pitemcoltextr
 	{
 		font-size: 14px;
-		margin-top: -65%;
 	}
 	.ava
 	{
@@ -1851,7 +2377,6 @@ line-height: 26px;
 	{
 		height: 200vh;
 		top: 6.5%;
-		left: -7%;
 		width: 50vw;
 	}
 	.comingsoon
@@ -1893,7 +2418,7 @@ line-height: 26px;
 		width: 20vw;
 	}
 	.leftt{
-		font-size: 18px;
+		font-size: 22px;
 	}
 	
 	.section
@@ -1955,11 +2480,17 @@ line-height: 26px;
 
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) 
 
 {
+	
+	.doscoll 
+	{
+  		width: 100%;
+	}
+	
+	
 	html,body{
 		margin: 0;
 		padding: 0;
@@ -2005,11 +2536,6 @@ line-height: 26px;
 		height: 45px;
 	}
 	
-		.doscol
-	{
-		width: 100%;
-	}
-	
 	.ta
 	{
 		left: 0%;
@@ -2030,6 +2556,7 @@ line-height: 26px;
 	{
 		left: 0%;
 		top: 48%;
+		width: 22.5vw;
 	}
 	
 	.hlogo
@@ -2044,8 +2571,8 @@ line-height: 26px;
 	.grid-container
 	{
 		grid-template-columns: auto auto;
-		left: -35%;
-		top: 105%;
+		left: -45%;
+		top: 10vh;
 		width: 80vw;
 	}
 	
@@ -2061,6 +2588,7 @@ line-height: 26px;
 	}
 	.t1
 	{
+		width: 30vw;
 		top: -15%;
 		font-size: 35px;
 		left: 0px;
@@ -2068,6 +2596,7 @@ line-height: 26px;
 	
 	.ourp
 	{
+		top: 10vh;
 		margin-top: 140%;
 		text-align: left;
 		width: 80%;
@@ -2092,6 +2621,7 @@ line-height: 26px;
 		left: 0px;
 		width: 80vw;
 		font-size: 19.5px;
+		margin-left: 0px;
 	}
 	.iconrow
 	{
@@ -2213,6 +2743,7 @@ line-height: 26px;
 	
 	.ourlocation
 	{
+		top: -5vh;
 		width: 80vw;
 		margin-left: 0%;
 		left: 10%;
@@ -2221,6 +2752,7 @@ line-height: 26px;
 	}
 	.ourlobody
 	{
+		top: 4vh;
 		font-size: 20px;
 		text-align: left;
 		width: 80vw;
@@ -2241,23 +2773,16 @@ line-height: 26px;
 		left: 10%;
 		width: 80vw;
 		margin-left: 0px;
-		top: 10%;
+		top: 3vh;
 		font-size: 35px;
 	}
 	
-	.doscol 
-	{
-  		float: left;
-  		width: 80vw;
-  		padding: 10px;
-  		height: 85%;
-	}
 	
 	.wbdicon1
 	{
 		height: 46px;
 		width: 43px;
-		left: 0%;
+		left: 5vw;
 		margin-left: 0px;
 		background-size: 110%;
 	}
@@ -2265,7 +2790,7 @@ line-height: 26px;
 	{
 		height: 46px;
 		width: 43px;
-		left: 0%;
+		left: 5vw;
 		margin-left: 0px;
 		background-size: 110%;
 	}
@@ -2273,7 +2798,7 @@ line-height: 26px;
 	{
 		height: 46px;
 		width: 43px;
-		left: 0%;
+		left: 5vw;
 		margin-left: 0px;
 		background-size: 110%;
 	}
@@ -2281,7 +2806,7 @@ line-height: 26px;
 	{
 		height: 46px;
 		width: 43px;
-		left: 0%;
+		left: 5.5vw;
 		margin-left: 0px;
 		background-size: 100%;
 	}
@@ -2292,6 +2817,7 @@ line-height: 26px;
 	}
 	.wbdtitle2
 	{
+		width: auto;
 		left: 15%;
 		font-size: 20.5px;
 	}
@@ -2316,7 +2842,6 @@ line-height: 26px;
 	}
 	.wbdtextcon1
 	{ 
-		top: 15%;
 		left: -11%;
 		margin-left: 0px;
 		width: 80vw;
@@ -2324,7 +2849,7 @@ line-height: 26px;
 	.wbdtextcon2
 	{
 		margin-left: 0px;
-		top: 100%;
+		top: 35vh;
 		width: 80vw;
 	}
 	
@@ -2352,7 +2877,6 @@ line-height: 26px;
 	.pitemcoltextr
 	{
 		font-size: 14px;
-		margin-top: -68%;
 	}
 	.ava
 	{
@@ -2360,6 +2884,7 @@ line-height: 26px;
 	}
 	.avar
 	{
+		margin-top: 40px;
 		font-size: 13px;
 	}
 	.pitemconi1
@@ -2375,7 +2900,6 @@ line-height: 26px;
 	{
 		height: 200vh;
 		top: 6.5%;
-		left: -7%;
 		width: 40vw;
 	}
 	.comingsoon
@@ -2384,7 +2908,8 @@ line-height: 26px;
 	}
 	.csbtn
 	{
-		padding: 10px 0px 0px 35px;
+		width: 18vw;
+    	padding: 10px 0px 0px 25px;
 	}
 	.pitemcol
 	{
@@ -2421,7 +2946,7 @@ line-height: 26px;
 		width: 20vw;
 	}
 	.leftt{
-		font-size: 18px;
+		font-size: 21px;
 	}
 	
 	.section
@@ -2438,7 +2963,9 @@ line-height: 26px;
 	}
 	.section4
 	{
+		top: 60vh;
 		max-width: 100%;
+		height: 75vh;
 	}
 		.section3
 	{
@@ -2481,6 +3008,550 @@ line-height: 26px;
 	{
 		width: 80vw;
 	}
+	
+
 }
 
 
+/* Tablet Landscape */
+
+@media only screen 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+	
+{
+	.doscoll 
+	{
+  		width: 100%;
+	}
+	
+	  
+	  	html,body{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		overflow-x: hidden;
+	}
+	.ultraicon1
+	{
+		
+		margin-left: 80px;
+		width: 45px;
+		height: 45px;
+	}
+		.ultraicon2
+	{
+		margin-left: 40px;
+		width: 45px;
+		height: 45px;
+	}
+		.ultraicon3
+	{
+		margin-left: 80px;
+		width: 45px;
+		height: 45px;
+	}
+		.ultraicon4
+	{
+		margin-left: 40px;
+		width: 45px;
+		height: 45px;
+	}
+		.ultraicon5
+	{
+		margin-left: 80px;
+		width: 45px;
+		height: 45px;
+	}
+		.ultraicon6
+	{
+		margin-left: 80px;
+		width: 45px;
+		height: 45px;
+	}
+	
+	.ta
+	{
+		left: 0%;
+		top: 17%;
+		width: 80vw;
+		font-size: 60px;
+	}
+	
+	.ta1{
+		left: 0%;
+		width: 53vw;
+		top: 30%;
+		font-size: 22px;
+		line-height: normal;
+	}
+	
+	.button1
+	{
+		left: 0%;
+		top: 48%;
+		width: 14.5vw;
+	}
+	
+	.hlogo
+	{
+		left: 10%;	
+	}
+	.btn-group
+	{
+		display: none;
+		width: 0px;
+	}
+	.grid-container
+	{
+		grid-template-columns: auto auto;
+		left: -9vw;
+		top: 10vh;
+		width: 80vw;
+	}
+	
+	.con1
+	{
+		top: 60%;
+		height: 80px;
+		background-color: transparent;
+		border-bottom-style: none;
+		box-shadow: none;
+		border-radius: 0px;
+		
+	}
+	.t1
+	{
+		width: 30vw;
+		top: -15%;
+		font-size: 35px;
+		left: 0px;
+	}
+	
+	.ourp
+	{
+		top: 25vh;
+		text-align: left;
+		width: 80%;
+		left: 0%;
+	}
+	
+	.ourptitle
+	{
+		text-align: left;
+		left: 0px;
+		font-size: 35px;
+		width: 80vw;
+		right: 0px;
+		margin: 0px;
+		top: 15px;
+	}
+	
+	.ourpbody
+	{
+		top: 30px;
+		text-align: left;
+		left: 0px;
+		width: 65vw;
+		font-size: 19.5px;
+		margin-left: 0px;
+	}
+	.iconrow
+	{
+		flex-direction:column;
+		width: 80vw;
+	}
+	
+	.iconitem
+	{
+		width: 60vw;
+		height: 50px;
+		left: 0px;
+		margin-left: 0px;
+		border-radius: 0px;
+		border: none;
+	}
+	.ourpicon1
+	{
+		top: 0px;
+		width: 43px;
+		height: 43px;
+		margin: 0px;
+	}
+	.ourpicon2
+	{
+		top: 0px;
+		width: 43px;
+		height: 43px;
+		margin: 0px;
+	}
+	.ourpicon3
+	{
+		top: 0px;
+		width: 43px;
+		height: 43px;
+		margin: 0px;
+	}
+	.ourpicon4
+	{
+		top: 0px;
+		width: 43px;
+		height: 43px;
+		margin: 0px;
+	}
+	.ourpicon5
+	{	
+		top: 0px;
+		width: 43px;
+		height: 43px;
+		margin: 0px;
+	}
+	.ourpicon6
+	{
+		top: 0px;
+		width: 43px;
+		height: 43px;
+		margin: 0px;
+	}
+	.icontext{
+		height: 50px;
+		left: 30px;
+		font-size: 20px;
+		width: 50vw;
+	}
+	
+	.iconcon{
+		position: relative;
+		grid-template-columns: column;
+		width: 60vw;
+		margin-bottom: 30px;
+		left: 0%;
+		top: 13%;
+	}
+		.iconcon2{
+		margin-left: 0px;
+		position: relative;
+		grid-template-columns: column;
+		left: 0%;
+		top: 13%;
+		width: 60vw;
+	}
+	
+	.ournetwork
+	{
+		width: 80vw;
+		top: 160px;
+	}
+	
+	.ourntitle
+	{
+		left: 0px;
+		font-size: 35px;
+		
+	}
+	.ourncountrycon
+	{
+		left: 0px;
+		width: 80vw;
+	}
+	.ourncountrytext
+	{
+		left: 0px;
+		width: 80vw;
+	}
+	.ccon
+	{
+		left: 0px;
+		margin-left: 0px;
+		width: 80vw;
+		padding: 0;
+	}
+	.countrycon
+	{
+		left: 0px;
+		width: 20vw;
+		height: 5vh;
+	}
+	
+	
+	.ourlocation
+	{
+		top: -15vh;
+		width: 80vw;
+		margin-left: 0%;
+		left: 10%;
+		position: absolute;
+		font-size: 36px;
+	}
+	.ourlobody
+	{
+		top: -4vh;
+		font-size: 20px;
+		text-align: left;
+		width: 80vw;
+		left: 10%;
+	}
+	.contactcon
+	{
+		left: 9%;
+		top: 5vh;
+		width: 60vw;
+		margin-left: 0%;
+		height: 425px;
+		
+	}
+	
+	.wbd
+	{
+		left: 10%;
+		width: 80vw;
+		margin-left: 0px;
+		top: 3vh;
+		font-size: 35px;
+	}
+	
+	.wbdicon1
+	{
+		height: 46px;
+		width: 43px;
+		left: 5vw;
+		margin-left: 0px;
+		background-size: 110%;
+	}
+	.wbdicon2
+	{
+		height: 46px;
+		width: 43px;
+		left: 5vw;
+		margin-left: 0px;
+		background-size: 110%;
+	}
+	.wbdicon3
+	{
+		height: 46px;
+		width: 43px;
+		left: 5vw;
+		margin-left: 0px;
+		background-size: 110%;
+	}
+	.wbdicon4
+	{
+		height: 46px;
+		width: 43px;
+		left: 5.5vw;
+		margin-left: 0px;
+		background-size: 100%;
+	}
+	.wbdtitle
+	{
+		left: 15%;
+		font-size: 20.5px;
+	}
+	.wbdtitle2
+	{
+		width: auto;
+		left: 15%;
+		font-size: 20.5px;
+	}
+	.wbdbody
+	{
+
+		top: 10px;
+		left: 15%;
+		height: 100px;
+		width: 100%;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.wbdbody2
+	{
+		top: 10px;
+		left: 15%;
+		height: 100px;
+		width: 100%;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.wbdtextcon1
+	{ 
+		left: -11%;
+		margin-left: 0px;
+		width: 80vw;
+		top: 0px;
+	}
+	.wbdtextcon2
+	{
+		margin-left: 0px;
+		top: 40vh;
+		width: 80vw;
+	}
+	
+	.pitemcontainer
+	{
+		padding: 0px;
+		width: 40vw;
+		left: 0px;
+		grid-template-columns: auto auto;
+		height: 547px;
+		background-attachment: scroll;
+		top: 19%;
+	}
+	
+	.pitemconi1text
+	{
+		font-size: 12px;
+		width: 40vw;
+		border-radius: 0px;
+	}
+	.pitemcoltext
+	{
+		font-size: 14px;	
+	}
+	.pitemcoltextr
+	{
+		font-size: 14px;
+	}
+	.ava
+	{
+		font-size: 13px;
+	}
+	.avar
+	{
+		font-size: 13px;
+	}
+	.pitemconi1
+	{
+		top: 30px;
+		left: 0px;
+		height: 50vh;
+		width: 40vw;
+		margin-bottom: 50px;
+		border-radius: 0px;
+	}
+	.nboxcon
+	{
+		height: 200vh;
+		top: 6.5%;
+		width: 40vw;
+	}
+	.comingsoon
+	{
+
+	}
+	.csbtn
+	{
+		display: none;
+		width: 19vw;
+		padding: 10px 0px 0px 35px;
+		left: 6.5%;
+	}
+	.pitemcol
+	{
+		width: 40vw;
+	}
+	.pitemconi1text
+	{
+		width: 40vw;
+	}
+	.disc
+	{
+		padding-top: 10px;
+	}
+	
+	.section4
+	{
+		background-image: url("bgs4.png");
+	}
+	.ultratext
+	{
+		width: 19vw;
+		top: 0px;
+    	font-size: 20px;
+    	height: 10vh;
+		margin-left: 20px;
+	}
+	.countrycontext
+	{
+		top: 0px;
+		left: 0px;
+		padding-left: 15px;
+		padding-top: 20px;
+		font-size: 20px;
+		text-align: center;
+		width: 20vw;
+	}
+	.leftt{
+		font-size: 21px;
+	}
+	
+	.section
+	{
+		max-width: 100%;
+	}
+	.section1
+	{
+		max-width: 100%;
+	}
+	.section2
+	{
+		max-width: 100%;
+	}
+	.section4
+	{
+		top: 60vh;
+		max-width: 100%;
+		height: 75vh;
+	}
+		.section3
+	{
+		top: 300%;
+		max-width: 100%;
+	}
+	.continitial
+	{
+		font-size: 26px;
+	}
+	
+	.continitial1
+	{
+		font-size: 21px;
+	}
+	
+	.contnext
+	{
+		font-size: 21px;
+	}
+	.contnext1
+	{
+		font-size: 26px;
+	}
+	.hlogo
+	{
+		 background-size: 101%;
+	}
+		.section3
+	{
+		background-image: url("bg3m.png");
+		max-width: 100%; 
+		top: 330vh;
+	}
+	.con2
+	{
+		width: 100%;
+	}
+	
+	.conttext
+	{
+		width: 80vw;
+	}
+	  
+	  .b1t{
+		  font-size: 75%;
+	  }
+	  
+	  
+	  
+
+}
